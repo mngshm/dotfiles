@@ -3,18 +3,18 @@
 # Bspwm-Dots 
 This repo of my dotfiles containing all the cli-tools or apps I use. 
 
-#TO be Noted 
-• The Above Image has my latest setup of ArchLinux Bspwm. 
-• Install All the Below Listed Polybar fonts. 
-• Do not forget to configure your Workspace Names in polybar if you want the workspace name on the bar. 
+#To be Noted 
+- The Above Image has my latest setup of ArchLinux Bspwm. 
+- Install All the Below Listed Polybar fonts. 
+- Do not forget to configure your Workspace Names in polybar if you want the workspace name on the bar. 
   That can be changed in your bspwmrc `bspc monitor -d 1 2 3 4 5` at this line. 
-• Here I used Kitty as my default terminal emulator. 
-• Color scheme : Nord with some variations. 
-• I dont need Battery modules so you can add them y yourself and you need to edit some values like in bar and wlan. 
+- Here I used Kitty as my default terminal emulator. 
+- Color scheme : Nord with some variations. 
+- I dont need Battery modules so you can add them y yourself and you need to edit some values like in bar and wlan. 
 
 # Dependencies 
-• Material Design Icons 
-• JetBrainsono Font
-• Nerd Fonts JetbrainsMono 
+- Material Design Icons 
+- etBrainsono Font
+- Nerd Fonts JetbrainsMono 
 
 
