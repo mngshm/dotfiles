@@ -10,8 +10,8 @@ This repo of my dotfiles containing all the cli-tools or apps I use.
   That can be changed in your bspwmrc `bspc monitor -d 1 2 3 4 5` at this line. 
 - Here I used Kitty as my default terminal emulator. 
 - Color scheme : Nord with some variations. 
-- I dont need Battery modules so you can add them yourself and you need to edit some values like in bar and wlan. 
-- Also to note in the polybar menu module i have my name in Japanese you can change that to anything you want or maybe icon. 
+- You need to edit some values like in the bar like wlan or monitor or some other things. 
+- Also to note in the polybar menu module I have my name in Japanese you can change that to anything you want or maybe icon. 
 
 # Dependencies 
 - Material Design Icons 
