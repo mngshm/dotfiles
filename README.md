@@ -1,4 +1,5 @@
-![Nord](https://user-images.githubusercontent.com/82205152/115105190-e0b95180-9f7a-11eb-83a4-8c2515d9432b.png)
+![ileave](https://user-images.githubusercontent.com/82205152/115583818-df27ba80-a2e7-11eb-90ac-f82708a65870.png)
+
 
 # Bspwm-Dots 
 This repo of my dotfiles containing all the cli-tools or apps I use. 
