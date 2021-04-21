@@ -16,8 +16,6 @@ This repo of my dotfiles containing all the cli-tools or apps I use.
 
 # Dependencies 
 - Material Design Icons 
-- etBrainsono Font
+- JetBrainsono Font
 - Nerd Fonts JetbrainsMono 
-
-
 
