@@ -10,13 +10,12 @@ esac
 
 cmds="\
 󱎜  lock		slock
-󰁬  leave bsp	kill -TERM $(pgrep -u $USER "\bdwm$")
-󰁪  renew bsp	kill -HUP $(pgrep -u $USER "\bdwm$")
+󰁬  leave bsp	kill -TERM $(pkill bspwm sxhkd)
 󱋑  hibernate	slock ${hib:-systemctl suspend-then-hibernate -i}
 󰻹  reboot	${reb:-sudo -A reboot}
 󰧵  shutdown	${shut:- sudo shutdown now}
 󰔱  display off 	 xset dpms force off"
 
-choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p BYE -l 6 )" || exit 1
+choice="$(echo "$cmds" | cut -d'	' -f 1 | dmenu -p BYE -l 7 )" || exit 1
 
 `echo "$cmds" | grep "^$choice	" | cut -d '	' -f2-`
