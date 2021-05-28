@@ -1,0 +1,24 @@
+# My One-Dark themed Zathura Settings 
+
+set default-bg                  "#1e222a"
+set default-fg                  "#979eab"
+
+set statusbar-fg                "#979eab"
+set statusbar-bg                "#353b45"
+
+set inputbar-fg                 "#d3c6aa" 
+
+set notification-error-bg       "#1e222a"
+set notification-error-fg       "#979eab"
+
+set highlight-color             "#abb2bf"
+set highlight-active-color      "#61afef"
+
+set notification-bg             "#1e222a" 
+set notification-fg             "#979eab" 
+
+set recolor-lightcolor          "#1e222a" 
+set recolor-darkcolor           "#979eab" 
+set recolor                     "true"
+
+set font                        "mononoki Italic Nerd Font Complete Mono 12"

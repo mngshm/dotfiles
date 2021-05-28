@@ -1,0 +1,103 @@
+# Font configuration (changes require restart)
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: Victor Mono Bold Nerd Font Complete Mono 
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    family: Victor Mono Bold Nerd Font Complete Mono
+      # Style can be specified to pick a specific face.  style: Bold
+
+  # The italic font face
+  italic:
+    family: Victor Mono Bold Nerd Font Complete Mono
+      # Style can be specified to pick a specific face.  style: Italic
+  size: 9.8 
+# Background Opacity
+background_opacity: 1.0
+
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: xterm-256color
+
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  #dimensions:
+  #  columns: 0
+  #  lines: 0
+
+  # Window position (changes require restart)
+  #
+  # Specified in number of pixels.
+  # If the position is not set, the window manager will handle the placement.
+  #position:
+  #  x: 0
+  #  y: 0
+
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 10
+    y: 10
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 5000
+
+
+# Base16 Material Palenight 256 - alacritty color config
+# Nate Peterson
+colors:
+  # Default colors
+  primary:
+    background: '0x1e222a'
+    foreground: '0x979eab'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x979eab'
+    cursor: '0x1a1b26'
+
+  # Normal colors
+  normal:
+    black:   '0x353b45'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0x9a7ecc'
+    cyan:    '0x56b6c2'
+    white:   '0xabb2bf'
+
+  # Bright colors
+  bright:
+    black:   '0x393e48'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0x9a7ecc'
+    cyan:    '0x56b6c2'
+    white:   '0xabb2bf'
+
+  indexed_colors:
+    - { index: 16, color: '0xf78c6c' }
+    - { index: 17, color: '0xff5370' }
+    - { index: 18, color: '0x444267' }
+    - { index: 19, color: '0x32374d' }
+    - { index: 20, color: '0x8796b0' }
+    - { index: 21, color: '0x959dcb' }
