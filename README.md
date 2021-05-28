@@ -1,3 +1,10 @@
+# Onedark Setup 
+![vim](https://user-images.githubusercontent.com/82205152/119995416-2e4dc300-bfeb-11eb-84c0-b8728e757dc5.png)
+
+- Colors inspired from @siduck76. 
+- Repo to my Vim-dotfiles : https://github.com/Mangeshrex/vim-dots. 
+
+# Nord Bspwm Screenshot 
 ![Nord](https://user-images.githubusercontent.com/82205152/119094670-f6fd7600-ba2e-11eb-934d-b494e6714c6e.png)
 
 
