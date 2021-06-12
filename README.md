@@ -11,7 +11,7 @@
 
 
 # Bspwm-Dots 
-This repo of my dotfiles contain's all the cli-tools or apps I use. 
+This is a repo of my dotfiles contain's all the cli-tools or apps I use. 
 
 # To be Noted 
 - The Above Image has my latest setup of ArchLinux Bspwm. 
