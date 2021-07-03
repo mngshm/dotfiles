@@ -27,7 +27,6 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 
 # Dependencies 
 - Material Design Icons 
-- JetBrainsono Font
 - Nerd Fonts JetbrainsMono 
 
 # Programs Used in this RICE. 
@@ -40,3 +39,6 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - [Polybar](https://github.com/polybar/polybar) = A fast and easy to use statusbar. 
 - [vim](https://www.vim.org/) = A useful text editor that i mostly prefer.  
 - [My Dmenu](https://github.com/Mangeshrex/Nordic-dmenu-dots) = My Build for dmenu. 
+- [alacritty](https://github.com/alacritty/alacritty) = Alacritty Terminal Emulator 
+- [Zathura](https://github.com/pwmt/zathura) =  A Document Viewer. 
+
