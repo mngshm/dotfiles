@@ -239,14 +239,24 @@ time-alt = %{F#56b6c2}󰃭 %{F-}%{F#abb2bf}%a, %b %d%{F-}
 
 label = %date%%time%
 
+# For Void Linux users (kinda am also a void user xD) 
 [module/updates]
 type = custom/script 
 exec = ~/.config/polybar/scripts/xbps-updates 
 format = <label> 
 label = 󰬬 %output% 
 label-padding =1 
-label-background = ${colors.color8}
-label-foreground = ${colors.color1}
+label-background = ${colors.color8} 
+
+# For Arch Linux users 
+[module/pacup] 
+type = custom/script 
+exec = ~/.config/polybar/scripts/pacup  
+format = <label> 
+label = 󰬬 %output% 
+label-padding =1 
+label-background = ${colors.color8} 
+
 [module/mem]
 type = custom/script
 exec = free -m | sed -n 's/^Mem:\s\+[0-9]\+\s\+\([0-9]\+\)\s.\+/\1/p'
