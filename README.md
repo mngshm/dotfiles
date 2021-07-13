@@ -29,7 +29,15 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - Material Design Icons 
 - Nerd Fonts JetbrainsMono 
 
-# Programs Used in this RICE. 
+# Installation 
+- The user needs to git clone the repository anywhere in his `/home` directory. 
+- After doing this he can simply swap the files from the cloned repository to his `~/.config` folder in user home directory. 
+- For ex: If one wants to install the alacritty configurations he can simply do: 
+-         `cp -r ~/path/to/cloned_repo/alacritty.yml ~/.config/alacritty/alacritty.yml` 
+- Also do install the programs already before installing the configuration files. 
+- The configuration files for Gloom-Onedark rice are stored in the onedark folder and the configurations for Placidity-Nord rice are stored in Placidity-Bspwm folder. 
+ 
+# Programs I use to show off in my rices xD 
 - [cava](https://github.com/karlstav/cava) = Console Based Audio Visualizor for 
 - [neofetch](https://github.com/dylanaraps/neofetch) = System Fetching tool. 
 - [rxfetch](https://github.com/Mangeshrex/rxfetch) = Custom made system-info fetch tool. 
@@ -41,4 +49,6 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - [My Dmenu](https://github.com/Mangeshrex/Nordic-dmenu-dots) = My Build for dmenu. 
 - [alacritty](https://github.com/alacritty/alacritty) = Alacritty Terminal Emulator 
 - [Zathura](https://github.com/pwmt/zathura) =  A Document Viewer. 
+
+
 
