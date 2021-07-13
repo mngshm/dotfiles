@@ -33,7 +33,7 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - The user needs to git clone the repository anywhere in his `/home` directory. 
 - After doing this he can simply swap the files from the cloned repository to his `~/.config` folder in user home directory. 
 - For ex: If one wants to install the alacritty configurations he can simply do: 
--         `cp -r ~/path/to/cloned_repo/alacritty.yml ~/.config/alacritty/alacritty.yml` 
+-         ```cp -r ~/path/to/cloned_repo/alacritty.yml ~/.config/alacritty/alacritty.yml```
 - Also do install the programs already before installing the configuration files. 
 - The configuration files for Gloom-Onedark rice are stored in the onedark folder and the configurations for Placidity-Nord rice are stored in Placidity-Bspwm folder. 
  
