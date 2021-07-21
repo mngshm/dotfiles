@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="https://github.com/Mangeshrex/Bspdots/blob/main/peepotelegram_159835ca746e02fb2159d2b02e2b35cd.jpg" />
+  <img width="25%" src="https://github.com/Mangeshrex/Bspdots/blob/main/IMG_20210721_151759_510-removebg-preview.png" />
 </p>
 
 <p align="center">
