@@ -1,3 +1,11 @@
+<p align="center">
+  <img width="25%" src="https://github.com/Mangeshrex/pepe.png" />
+</p>
+
+<p align="center">
+  <b> Rex's Linux Dotfiles</b>
+</p>
+
 # Onedark Setup 
 
 ![onedark-rice](https://user-images.githubusercontent.com/82205152/122727874-2523df00-d295-11eb-8c8e-0baa94e92d68.png)
