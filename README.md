@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="25%" src="https://github.com/Mangeshrex/Bspdots/blob/main/IMG_20210721_155345_773.png" />
+  <img width="40%" src="https://github.com/Mangeshrex/Bspdots/blob/main/IMG_20210721_155345_773.png" />
 </p>
 
 <p align="center">
