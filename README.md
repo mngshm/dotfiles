@@ -18,6 +18,9 @@
 # Nord Bspwm Screenshot 
 ![Nord](https://user-images.githubusercontent.com/82205152/119094670-f6fd7600-ba2e-11eb-934d-b494e6714c6e.png)
 
+# uWu >.< 
+![uWuu](https://github.com/Mangeshrex/bspdots/blob/main/uwu-nvchad.png) 
+
 # Bspwm-Dots 
 This is a repo of my dotfiles contain's all the cli-tools or apps I use. 
 
@@ -35,6 +38,7 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 # Dependencies 
 - Material Design Icons 
 - Nerd Fonts JetbrainsMono 
+- packages : ```xprop, xrdb, wmctrl``` and all the other apps needed should be installed . 
 
 # Installation 
 - The user needs to git clone the repository anywhere in his `/home` directory. 

@@ -34,7 +34,7 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 10
+    x: 20
     y: 10
 
   # Spread additional padding evenly around the terminal content.
@@ -109,7 +109,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: JetBrains Mono NF
+    family: Iosevka Nerd Font
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -128,7 +128,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrains Mono NF 
+    family: Iosevka Nerd Font 
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -147,7 +147,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrains Mono NF 
+    family: Iosevka Nerd Font  
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -166,7 +166,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: JetBrains Mono NF 
+    family: Iosevka Nerd Font 
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -216,35 +216,35 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '0x1e222a'
-    foreground: '0x979eab'
+    background: '0x0f1315'
+    foreground: '0xC5C8C9'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x979eab'
-    cursor: '0x1a1b26'
+    text: '0xd6d6d6'
+    cursor: '0x303435'
 
   # Normal colors
   normal:
-    black:   '0x353b45'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xe5c07b'
-    blue:    '0x61afef'
-    magenta: '0x9a7ecc'
-    cyan:    '0x56b6c2'
-    white:   '0xabb2bf'
+    black:   '0x303435'
+    red:     '0xe74c4c'
+    green:   '0x6bb05d'
+    yellow:  '0xe59e67'
+    blue:    '0x5b98a9'
+    magenta: '0xef7cbb'
+    cyan:    '0x51a39f'
+    white:   '0xc4c4c4'
 
   # Bright colors
   bright:
-    black:   '0x393e48'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xe5c07b'
-    blue:    '0x61afef'
-    magenta: '0x9a7ecc'
-    cyan:    '0x56b6c2'
-    white:   '0xabb2bf'
+    black:   '0x3a3c3d'
+    red:     '0xc26f6f'
+    green:   '0x8dc776'
+    yellow:  '0xe7ac7e'
+    blue:    '0x7ab3c3'
+    magenta: '0xd3869b'
+    cyan:    '0x6db0ad'
+    white:   '0xbfbfbf'
   # Dim colors
   #
   # If the dim colors are not set, they will be calculated automatically based
