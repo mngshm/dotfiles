@@ -19,7 +19,7 @@
 ![Nord](https://user-images.githubusercontent.com/82205152/119094670-f6fd7600-ba2e-11eb-934d-b494e6714c6e.png)
 
 # uWu >.< 
-![uWuu](https://github.com/Mangeshrex/bspdots/blob/main/uwu-nvchad.png) 
+![uWuu](https://github.com/Mangeshrex/bspdots/blob/main/assets/uwu-nvchad.png) 
 
 # Bspwm-Dots 
 This is a repo of my dotfiles contain's all the cli-tools or apps I use. 
