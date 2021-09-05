@@ -1,5 +1,6 @@
 #!/bin/bash 
-updates=$(pacman -Qu | wc -l) 
+
+Updates=$(xbps-install -un | wc -l) 
 
 if [ -z "$updates" ]; then 
 	echo "Fully Updated" 
