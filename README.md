@@ -7,7 +7,7 @@
 </p> 
 
 <p align="center" 
-<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=bf5b98a9&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e74c4c&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=e74c4c&labelColor=2F3131&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=bf5b98a9&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e74c4c&br=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=&labelColor=2F3131&style=for-the-badge">
 </p> 
  
 # Onedark Setup 
