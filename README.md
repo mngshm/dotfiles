@@ -4,8 +4,10 @@
 
 <p align="center">
   <b>🔥 Rex's Linux Dotfiles 🔥</b>
-</p>
 
+<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=bf5b98a9&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e74c4c&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=e74c4c&labelColor=2F3131&style=for-the-badge">
+</p> 
+ 
 # Onedark Setup 
 
 ![onedark-rice](https://user-images.githubusercontent.com/82205152/122727874-2523df00-d295-11eb-8c8e-0baa94e92d68.png)
