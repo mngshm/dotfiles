@@ -20,7 +20,7 @@ __powerline() {
     if [[ -z "$PS_SYMBOL" ]]; then
       case "$(uname)" in
           Darwin)   PS_SYMBOL='';;
-          Linux)    PS_SYMBOL='$';;
+          Linux)    PS_SYMBOL='';;
           *)        PS_SYMBOL='%';;
       esac
     fi
@@ -64,9 +64,9 @@ __powerline() {
         # Check the exit code of the previous command and display different
         # colors in the prompt accordingly. 
         if [ $? -eq 0 ]; then
-            local symbol="$COLOR_SUCCESS $PS_SYMBOL $COLOR_RESET"
+            local symbol="$COLOR_SUCCESS$PS_SYMBOL $COLOR_RESET"
         else
-            local symbol="$COLOR_FAILURE $PS_SYMBOL $COLOR_RESET"
+            local symbol="$COLOR_FAILURE$PS_SYMBOL $COLOR_RESET"
         fi
 
         local cwd="$COLOR_CWD\w$COLOR_RESET"
@@ -83,7 +83,7 @@ __powerline() {
             local git="$COLOR_GIT$(__git_info)$COLOR_RESET"
         fi
 
-        PS1="\e[1;31m󰮯 \e[0m $cwd$git$symbol"
+        PS1="\e[1;31m\e[0m $cwd$git \e[1;35m\e[0m\e[1;33m\e[0m$symbol"
     }
 
     PROMPT_COMMAND="ps1${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
