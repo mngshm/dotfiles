@@ -9,7 +9,7 @@ case "$(readlink -f /sbin/init)" in
 esac
 
 cmds="\
-󱎜  lock		slock
+󱎜  lock		slock 
 󰁬  leave bsp	kill -TERM $(pkill bspwm sxhkd)
 󱋑  hibernate	slock ${hib:-systemctl suspend-then-hibernate -i}
 󰻹  reboot	${reb:-sudo -A reboot}
