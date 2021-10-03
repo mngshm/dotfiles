@@ -35,7 +35,6 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - You need to edit some values like in the bar like wlan or monitor or some other things. 
 - Also to note in the polybar menu module I have my name in Japanese you can change that to anything you want or maybe icon. 
 - That fetch in the first picture is now improved and can be found [here](https://github.com/Mangeshrex/rxfetch)
-- You can install my colorscheme from uwu.vim repo. 
 
 # Dependencies 
 - Material Design Icons 
