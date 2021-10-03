@@ -1,27 +1,27 @@
 ! Colors
 !
-*background: #1e222a 
+*background: #1e222a
 *foreground: #979eab
-*cursorColor: #1a1b26 
+*cursorColor: #1a1b26
 
 ! [Dark Colors}
-*color0: #282C34  
+*color0: #282C34 
 *color8: #282C35
 ! [Red] 
-*color1: #d15d66 
-*color9: #d15d66  
+*color1: #d15d66
+*color9: #d15d66
 
 ! [Green] 
 *color2: #99c47a
-*color10: #99c47a 
+*color10: #99c47a
 
 ! [Yellow] 
 *color3: #dcb772
-*color11: #dcb772 
+*color11: #dcb772
 
 ! [Blue] 
 *color4: #5dabeb
-*color12: #5dabeb 
+*color12: #5dabeb
 
 ! [Magenta] 
 *color5: #C678DD
@@ -32,5 +32,5 @@
 *color14: #56b6c2
 
 ! [White]
-*color7: #b2b9c6 
-*color15: #b2b9c6  
+*color7: #b2b9c6
+*color15: #b2b9c6
