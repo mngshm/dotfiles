@@ -10,14 +10,7 @@
 <img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=e59e67&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e74c4c&br=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=&labelColor=2F3131&style=for-the-badge">
 </p> 
  
-# Onedark Setup 
-
-![onedark-rice](https://user-images.githubusercontent.com/82205152/122727874-2523df00-d295-11eb-8c8e-0baa94e92d68.png)
-
 - Repo to my Vim-dotfiles : https://github.com/Mangeshrex/vim-dots. 
-- The Dotfiles for this rice are stored in the onedark folder in this repository.
-- The colorscheme used is onedark but the colors are edited.
-- Colorscheme inspired from @siduck76 
 
 # Nord Bspwm Screenshot 
 ![Nord](https://user-images.githubusercontent.com/82205152/119094670-f6fd7600-ba2e-11eb-934d-b494e6714c6e.png)
