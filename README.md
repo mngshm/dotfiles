@@ -7,7 +7,7 @@
 </p> 
 
 <p align="center"> 
-<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=e59e67&labelColor=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e74c4c&br=2F3131&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=&labelColor=2F3131&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=6CBAD1&labelColor=131a1c&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=f65b5b&labelColor=131a1c&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=b185db&labelColor=131a1c&style=for-the-badge">
 </p> 
  
 - Repo to my Vim-dotfiles : https://github.com/Mangeshrex/vim-dots. 
@@ -33,27 +33,3 @@ This is a repo of my dotfiles contain's all the cli-tools or apps I use.
 - Material Design Icons 
 - Nerd Fonts JetbrainsMono 
 - packages : ```xprop, xrdb, wmctrl``` and all the other apps needed should be installed . 
-
-# Installation 
-- The user needs to git clone the repository anywhere in his `/home` directory. 
-- After doing this he can simply swap the files from the cloned repository to his `~/.config` folder in user home directory. 
-- For ex: If one wants to install the alacritty configurations he can simply do: 
--         cp -r ~/path/to/cloned_repo/alacritty.yml ~/.config/alacritty/alacritty.yml
-- Also do install the programs already before installing the configuration files. 
-- The configuration files for Gloom-Onedark rice are stored in the onedark folder and the configurations for Placidity-Nord rice are stored in Placidity-Bspwm folder. 
- 
-# Programs I use to show off in my rices xD 
-- [cava](https://github.com/karlstav/cava) = Console Based Audio Visualizor for 
-- [neofetch](https://github.com/dylanaraps/neofetch) = System Fetching tool. 
-- [rxfetch](https://github.com/Mangeshrex/rxfetch) = Custom made system-info fetch tool. 
-- [gtop](https://github.com/aksakalli/gtop) = System Monitoring Dashboard. 
-- [shell-color-scripts](https://github.com/stark/Color-Scripts) = Some cool color scripts for adding bling to my terminal. 
-- [kitty](https://sw.kovidgoyal.net/kitty/)= A terminal emulator. 
-- [Polybar](https://github.com/polybar/polybar) = A fast and easy to use statusbar. 
-- [vim](https://www.vim.org/) = A useful text editor that i mostly prefer.  
-- [My Dmenu](https://github.com/Mangeshrex/Nordic-dmenu-dots) = My Build for dmenu. 
-- [alacritty](https://github.com/alacritty/alacritty) = Alacritty Terminal Emulator 
-- [Zathura](https://github.com/pwmt/zathura) =  A Document Viewer. 
-
-
-
