@@ -1,0 +1,4 @@
+# Get Memory usage
+get_mem() {
+	free --mega | awk 'NR == 2 { print $3" / "$2" MB" }'
+}

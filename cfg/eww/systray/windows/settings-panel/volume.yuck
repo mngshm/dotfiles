@@ -1,0 +1,16 @@
+(defpoll current-volume :interval "1s" "amixer -D pulse sget Master | grep 'Left:' | awk -F'[][]' '{ print $2 }' | tr -d '%'")
+(defwidget volume[]
+  (box
+    :orientation "h"
+    :class "volume"
+    :space-evenly false
+    (label :text "" :class "volume-down")
+    (scale
+      :class "volume-scale"
+      :hexpand false
+      :width 170
+      :height 4
+      :min 0
+      :max 95
+      :value current-volume
+      :onchange "amixer -D pulse sset Master {}%")))

@@ -1,20 +1,24 @@
 <p align="center">
-  <img width="40%" src="https://github.com/Mangeshrex/Bspdots/blob/main/assets/IMG_20210721_155345_773.png" />
+  <img width="40%" src="https://github.com/Mangeshrex/Bspdots/blob/main/assets/pepe.png" />
 </p>
 
 <p align="center">
   <b>🔥 Rex's Linux Dotfiles 🔥</b>
 </p> 
 
+<p align="left">
+  <img src="../etc/bspwm.png">
+</p> 
+
 <p align="center"> 
-<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=6CBAD1&labelColor=131a1c&style=for-the-badge"> <img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=f65b5b&labelColor=131a1c&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=b185db&labelColor=131a1c&style=for-the-badge">
+<img src="https://img.shields.io/github/stars/Mangeshrex/dotfiles?color=e5c76b&labelColor=22292b&style=for-the-badge"> <img src="https://img.shields.io/github/issues/Mangeshrex/dotfiles?color=67b0e8&labelColor=22292b&style=for-the-badge">
+<img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=22292b&style=for-the-badge">
+<img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=e74c4c&labelColor=1b2224&style=for-the-badge">
+
 </p> 
  
-- Repo to my Vim-dotfiles : https://github.com/Mangeshrex/vim-dots. 
-
-# Nord Bspwm Screenshot 
-![Nord](https://user-images.githubusercontent.com/82205152/119094670-f6fd7600-ba2e-11eb-934d-b494e6714c6e.png)
-- ![config](https://github.com/mangeshrex/dotfiles/tree/nord) 
+# Everblush 
+![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-rice.png)
 
 # To be Noted 
 - Install All the Below Listed Polybar fonts. 

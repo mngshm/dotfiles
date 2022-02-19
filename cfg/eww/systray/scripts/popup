@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = "update" ]; then
+bspc rule -a kitty -o state=floating follow=on center=true rectangle=490x310+0+0 && kitty ~/.config/eww/systray/scripts/update Up
+elif [ "$1" = "check" ]; then
+bspc rule -a kitty -o state=floating follow=on center=true rectangle=490x310+0+0 && kitty ~/.config/eww/systray/scripts/pkgs check
+fi

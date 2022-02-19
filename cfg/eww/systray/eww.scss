@@ -1,0 +1,198 @@
+$pink: #ee9cdd;
+$magenta: #c47fd5;
+$red: #e06e6e;
+$yellow: #d8b25b;
+$green: #8ccf7e;
+$teal: #8ad8ef;
+$blue: #5dc1dd;
+$sky: #5db7cb;
+$lavender: #bab3e5;
+$black0: #1b2224;
+$black1: #232a2c;
+$black2: #181f21;
+$black3: #22282b;
+$black4: #202729;
+$gray0: #b3b9b8;
+$gray1: #bdc3c2;
+$gray3: #636a6c;
+$white: #777e80;
+$background: $black0;
+$background-dark: $black2;
+
+* {
+  all: unset;
+}
+
+.window {
+  background-color: transparent;
+}
+
+.settings-panel {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: $background;
+}
+
+.daily {
+  font-family: 'Cartograph CF';
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1em;
+}
+
+.daily-date {
+  border-radius: 0.5em;
+  background-color: $background-dark;
+  color: $magenta;
+  padding: 1.5rem;
+}
+
+.daily-weather {
+  border-radius: 0.5em;
+  background-color: $background-dark;
+  color: $green;
+  margin-left: 0.5rem;
+  padding: 1.5rem;
+}
+
+.circle-volume-box { 
+  background: $background;
+  padding: 1.5rem 2.3rem 1.5rem 2.3rem;
+  margin: .5rem;
+  border-radius: 2rem 0;
+}
+
+.volume-radial { 
+  background-color: $background-dark
+} 
+
+.volume-radial-label { 
+  padding: 2.5rem;
+}
+
+.volume-radial { 
+  color: $pink;
+}
+
+.fetchContent {
+  padding: 1rem 0 1rem 0;
+  font-family: 'Cartograph CF';
+  font-style: italic;
+  font-size: 1rem;
+  color: $lavender;
+}
+
+.logo {
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 4.5rem;
+  color: $blue;
+  margin-left: -2rem;
+}
+
+.fetch {
+  background-color: $background-dark;
+  border-radius: .5em;
+  color: $teal
+}
+
+.fetchTitles {
+  color: $blue;
+  margin-left: -1.5rem;
+}
+
+.fetchDetails{
+  padding-left: .5rem;
+  color: $lavender;
+}
+
+.volume {
+  border-radius: 0.5em;
+  background-color: $background-dark;
+  margin-top: 0.1rem;
+}
+
+.volume-scale trough highlight {
+  all: unset;
+  background-color: $sky;
+  border-radius: 0.7em;
+}
+
+.volume-down, .volume-up {
+  font-family: "feather";
+  font-size: 2rem;
+  color: $teal;
+  padding: 0 1rem 0 1rem;
+}
+
+.brightness {
+  border-radius: 0.5em;
+  background-color: $black1;
+  margin-top: 1rem;
+}
+
+.brightness-scale trough highlight {
+  all: unset;
+  background-color: $sky;
+  border-radius: 0.7em;
+}
+
+.brightness-down, .brightness-up {
+  font-family: "feather";
+  font-size: 1.5rem;
+  padding: 0 1rem 0 1rem;
+  color: $lavender;
+}
+
+.volume-scale trough, .brightness-scale trough{
+  min-height: 1.5rem;
+  border-radius: 0.7em;
+  background-color: $black1;
+}
+
+.systemmenu { 
+  background-color: $background-dark; 
+  border-radius: 1em;
+  margin-top: 0.5em;
+} 
+.system-menu-icon {
+  font-family: "feather";
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  font-size: 2.5rem;
+  background-color: $background-dark;
+}
+
+.system-menu-icon:nth-child(1) {
+  color: $red;
+  padding: 15px;
+}
+.system-menu-icon:nth-child(2) {
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  color: $green;
+  padding: 15px;
+}
+.system-menu-icon:nth-child(3) {
+  color: $blue;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  padding: 15px;
+}
+.system-menu-icon:nth-child(4) {
+  color: $yellow;
+  margin-right: 0.1em;
+  margin-left: 0.1em;
+  padding: 15px 
+}
+.system-menu-icon:nth-child(5) { 
+  color: lavender; 
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+  padding: 15px;
+}
+.system-menu-icon:hover{
+  background-color: $black0;
+  border-radius: 0.5em;
+}

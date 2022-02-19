@@ -1,0 +1,26 @@
+(include "./windows/settings-panel/daily.yuck")
+(include "./windows/settings-panel/volume.yuck")
+(include "./windows/settings-panel/brightness.yuck")
+(include "./windows/settings-panel/system-menu.yuck")
+(include "./windows/settings-panel/fetch.yuck")
+
+(defwindow settings-panel
+  :monitor 0
+  :geometry (geometry :x "1%"
+            :y "-3%"
+            ; :width "30%"
+            ; :height "30px"
+            :anchor "bottom left")
+  :stacking "fg"
+  :reserve (struts :distance "0px" :side "bottom")
+  :windowtype "dock"
+  :wm-ignore false
+  (box
+    :class "settings-panel"
+    :orientation "v"
+    :valign "start"
+    (fetch)
+    (daily)
+    (volume)
+
+    (system-menu)))

@@ -1,0 +1,16 @@
+# Setting PROMPT
+
+PS1=$'\e[1;33m󰮯\e[0m\E[0m \e[1;36m$(pwd | sed "s,^$HOME,~,")\E[0m $ '
+
+alias ls="lsd" 
+alias ps="pacman -S" 
+alias nv="nvim"
+alias gc="git clone"
+alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
+
+# History
+HISTFILE="$HOME/.mksh_history"
+HISTSIZE=5000
+export PATH="$HOME/.local/bin:$PATH"
+#source ~/.mksh-powerline.sh 
+

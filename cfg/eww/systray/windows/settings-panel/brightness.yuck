@@ -1,0 +1,15 @@
+(defpoll current-brightness :interval "1s" "brightnessctl -m -d amdgpu_bl0 | awk -F, '{print substr($4, 0, length($4)-1)}' | tr -d '%'")
+(defwidget brightness[]
+  (box
+    :orientation "h"
+    :class "brightness"
+    :space-evenly false
+    (label :text "" :class "brightness-down")
+    (scale
+      :class "brightness-scale"
+      :hexpand true
+      :min 0
+      :max 101
+      :value current-brightness
+      :onchange "brightnessctl set {}%")
+    (label :text "" :class "brightness-up")))

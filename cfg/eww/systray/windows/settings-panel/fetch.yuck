@@ -1,0 +1,56 @@
+(defwidget txt [label]
+  (box :halign 'start' label ))
+
+(defwidget title[]
+ (box :class 'fetchTitles' :orientation 'v'
+    (txt :label 'os')
+    (txt :label 'wm')
+    (txt :label 'sh')
+
+))
+
+(defwidget details[]
+  (box :class 'fetchDetails' :orientation 'v'
+  (txt :label  os)
+  (txt :label  wm)
+  (txt :label  shell)
+))
+
+(defwidget updateMgr[]
+  (box :orientation 'v' 
+       :space-evenly 'false'
+       :valign 'center'
+       :class "pkgmgr"
+  (box :orientation 'h' :class 'pkg_count'
+	(button	:class "pkgs_label"	:onclick "~/.config/eww/systray/scripts/popup check"	 "")
+	(label	:class "pkgs"		:text "${pkgs} pkgs"))
+  (box :orientation 'h' :class 'update_pkg' 
+	(button	:class "update_pkgs"	:onclick "~/.config/eww/systray/scripts/popup update"	 "")
+	(label	:class "upt"		:text "${update} updates"))
+	)
+)
+
+(defwidget fetch[]
+ (box :class 'fetch' 
+ (box :class 'logo'  '' ) 
+  (box :orientation 'h' :class 'fetchContent' :space-evenly false
+  (title) 
+  (details)
+ )
+))
+
+;fetch 
+(defpoll os :interval '10000s'
+  'scripts/fetch os')
+
+(defpoll shell :interval '100000s'
+  'scripts/fetch sh')
+
+(defpoll wm :interval '100000s'
+  'scripts/fetch wm')
+
+;update
+(defpoll update :interval "1s"  
+    "$HOME/.config/eww/systray/scripts/update")
+(defpoll pkgs :interval "1s"
+    "scripts/pkgs")

@@ -1,0 +1,72 @@
+
+#!/bin/sh
+
+# a single script to display any status i want
+
+# ARGS: vol/volume. bat/battery, music/playerctl
+
+status_volume() {
+  vol=$(pamixer --sink @DEFAULT_SINK@ --get-volume) 
+  echo "墳 $vol"
+}
+
+status_battery() {
+  CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
+  if (($CHARGE > 95)); then
+       printf " "
+  elif (($CHARGE > 70)); then
+       printf " "
+  elif ((CHARGE > 50)); then
+       printf " "
+  elif (($CHARGE > 30)); then
+       printf " "
+  else
+       printf " "
+  fi
+}
+
+status_temperature() {
+  read -r tmp </sys/class/thermal/thermal_zone0/temp
+  printf '%s°C\n' "${tmp%???}"
+}
+
+status_wifi() { 
+  if [ "$(cat /sys/class/net/wlan0/operstate)" = "up" ]; then 
+    echo " "
+  else 
+    echo "睊"
+  fi
+ }
+
+status_playerctl() {
+  player_status=$(playerctl status 2> /dev/null)
+  if [ "$player_status" = "Playing" ]; then
+    echo " $(playerctl metadata artist) - $(playerctl metadata title)"
+  elif [ "$player_status" = "Paused" ]; then
+    echo " $(playerctl metadata artist) - $(playerctl metadata title)"
+  else
+    echo ""
+  fi
+}
+
+while [ "$1" ]; do
+  case "$1" in
+    vol)
+      status_volume
+      exit ;;
+    bat)
+      status_battery
+      exit ;;
+    temp)
+      status_temperature
+      exit ;;
+    music)
+      status_playerctl
+      exit ;;
+    wifi)
+      status_wifi
+      exit ;;
+  esac
+done
+
+
