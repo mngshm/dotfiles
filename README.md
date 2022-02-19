@@ -1,13 +1,9 @@
 <p align="center">
-  <img width="40%" src="https://github.com/Mangeshrex/Bspdots/blob/main/assets/pepe.png" />
+  <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
 </p>
 
 <p align="center">
   <b>🔥 Rex's Linux Dotfiles 🔥</b>
-</p> 
-
-<p align="left">
-  <img src="../etc/bspwm.png">
 </p> 
 
 <p align="center"> 
@@ -21,10 +17,13 @@
 ![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-rice.png)
 
 # To be Noted 
-- Install All the Below Listed Polybar fonts. 
-- Do not forget to configure your Workspace Names in polybar if you want the workspace name on the bar. 
-  That can be changed in your bspwmrc `bspc monitor -d 1 2 3 4 5` at this line. 
-- Here I used Kitty as my default terminal emulator. 
-- Color scheme : Nord with some variations. 
-- You need to edit some values like in the bar like wlan or monitor or some other things. 
-- Also to note in the polybar menu module I have my name in Japanese you can change that to anything you want or maybe icon. 
+- ![Everblush](https://github.com/mangeshrex/everblush.vim) is a dark and beautiful colorscheme which I've used in my latest rice. 
+- I use bspwm as my daily life window manager bcuz its super minimal and fill my needs. 
+- I mostly use Nerd Font, Here - CaskaydiaCove Nerd Font Mono.
+- For GTK3 I use my custom ![Everblush theme](https://github.com/mangeshrex/everblush-gtk) made with Phocus/gtk3. Also you might need to modify the theme according to your preference ^-^ 
+- I use ![NvChad](https://github.com/NvChad/NvChad) / ![Conscious](https://github.com/Manas140/Conscious) for neovim, I mostly swap between whenever I get bored (Both the themes have Everblush Support).
+- I am using tint2 as my default bar in bspwm (friendship ends with polybar ;-;). 
+- My Old nord Dotfiles can be found in the nord branch of this repository.
+
+# Thank You 
+- !(rxyhn)[https://github.com/rxyhn] <3.
