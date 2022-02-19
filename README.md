@@ -26,4 +26,4 @@
 - My Old nord Dotfiles can be found in the nord branch of this repository.
 
 # Thank You 
-- !(rxyhn)[https://github.com/rxyhn] <3.
+- ![rxyhn](https://github.com/rxyhn) <3.
