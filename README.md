@@ -28,8 +28,11 @@
 # Installation 
   - Clone this repository to your $HOME dir. 
   > After you're done with cloning the repository. Install the following packages 
+  
   ```bspwm-rounded-corners sxhkd tint2 polybar alacritty xwallpaper maim imagemagick.```s 
+  
   > For compository I use [compix](https://github.com/xeome/compix). You need to build it from the official repository. 
+  
   > After you're done with all this, copy the configuration files from cloned directory to particular path. 
 
 # Thank You 
