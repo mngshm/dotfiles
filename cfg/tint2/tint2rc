@@ -1,4 +1,4 @@
-# Background 1: Standard Background
+# Background 1
 rounded = 5
 border_width = 0
 border_sides = TBLR
@@ -6,13 +6,13 @@ background_color = #131a1c 100
 background_color_hover = #181f21 100
 background_color_pressed = #1b2224 100
 
-# Background 2: Lighter Background
+# Background 2
 rounded = 15  
 border_width = 0
 border_sides = TBLR
 background_color = #22292b 100
 
-# Background 3: Launcher Background
+# Background 3  
 rounded = 7   
 border_width = 0
 border_sides = TBLR
@@ -103,8 +103,8 @@ execp_background_id = 2
 time1_format = %H %M
 time1_font = CaskaydiaCove Nerd Font 11
 clock_font_color = #bdc3c2 100
-clock_background_id = 22
-clock_padding = 1 10
+clock_background_id = 1
+clock_padding = 0 8
 
 # Wifi
 execp = new
