@@ -1,0 +1,77 @@
+* {
+    font:                           "JetBrainsMono Nerd Font 30";
+
+    red:                            #BF616A;
+    darkred:                        #BF616A;
+    green  :                        #A3BE8C;
+    darkgreen:                      #A3BE8C;
+    yellow:                         #EBCB8B;
+    darkyellow:                     #EBCB8B;
+    blue:                           #5E81AC;
+    darkblue:                       #5E81AC;
+    purple:                         #B48EAD;
+    darkpurple:                     #B48EAD;
+    cyan:                           #88C0D0;
+    darkcyan:                       #88C0D0;
+    foreground:                     #D8DEE9;
+    background:                     #2E3440;
+    border:                         #434C5E;
+
+    background-color: transparent;
+    text-color:       @foreground;
+    padding:          0px;
+    margin:           0px;
+    lines:		        1;
+    columns:          7;
+}
+
+window {
+  fullscreen:       false;
+  padding:          20px;
+  background-color: @background;
+  border:       20px;
+  border-color: @background;
+  border-radius: 10px;
+  background-image: url("images/pattern_dock.png");
+}
+
+mainbox {
+  padding:  10px;
+  children: [listview];
+  background-color: @background;
+  border-radius: 10px;
+}
+
+listview {
+    border-color: @separatorcolor;
+    spacing:      0px;
+    scrollbar:    false;
+    background:   @background;
+}
+
+element, element-text, element-icon {
+  cursor: pointer;
+}
+
+element {
+  padding:          20px;
+  spacing:          0px;
+  orientation:      horizontal;
+  horizontal-align: 1; 
+  border-radius:    10px;
+}
+
+element selected {
+    text-color: @background;
+    color: @background;
+    background-color: @border;
+}
+
+element-icon {
+  horizontal-align: 0.5;
+}
+
+element-text {
+  horizontal-align: 0.45;
+  padding:  0px 0px 0px 0px;
+}

@@ -12,19 +12,19 @@ super + Escape
 	pkill -USR1 -x sxhkd
 #screenshot
 super + shift + s
-	snap area
+	wackysnap area
 
 # EWW Keybinds
 super + e
-        eww -c ~/.config/eww/systray open settings-panel 
+        eww -c ~/.config/eww/systray open settings-panel
 
 super + shift + e
         eww -c ~/.config/eww/systray close settings-panel
 
 super + Print
-	maim "/home/$USER/Pictures/$(date).png" 
-super + shift + x 
-        maim -s -o "/home/$USER/Pictures/$(date).png"  
+	maim "/home/$USER/Pictures/$(date).png"
+super + shift + x
+  maim -u -s -n -m 1' "${msg}
 #
 # bspwm hotkeys
 #
@@ -129,7 +129,7 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
-	
+
 # move a window to another monitor
 super + shift + {Left,Down,Up,Right}
 	dir={west,south,north,east}; \

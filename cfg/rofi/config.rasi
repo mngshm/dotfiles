@@ -1,0 +1,160 @@
+configuration {
+    location: 						0;
+    font:                           "JetBrainsMonoMedium Nerd Font 10";
+    display-run: 					" ";
+}
+
+* {
+    red:                            #BF616A;
+    darkred:                        #BF616A;
+    green  :                        #A3BE8C;
+    darkgreen:                      #A3BE8C;
+    yellow:                         #EBCB8B;
+    darkyellow:                     #EBCB8B;
+    blue:                           #5E81AC;
+    darkblue:                       #5E81AC;
+    purple:                         #B48EAD;
+    darkpurple:                     #B48EAD;
+    cyan:                           #88C0D0;
+    darkcyan:                       #88C0D0;
+    foreground:                     #D8DEE9;
+    background:                     #2E3440;
+    border:                         #434C5E;
+}
+window {
+    border: 						0px;
+    border-color: 					@red;
+    border-radius: 					0px;
+    padding: 						30;
+    width: 							40%;
+    height: 						30%;
+    border-color:                   @border;
+}
+mainbox {
+    border:  0;
+    padding: 0;
+}
+message {
+    border:       0px 0px 0px;
+    border-color: @separatorcolor;
+    padding:      1px;
+}
+textbox {
+    text-color: @foreground;
+}
+listview {
+    lines:		  15;
+    columns:      1;
+    fixed-height: 0;
+    border:       0px 0px 0px ;
+    border-color: @separatorcolor;
+    spacing:      0px;
+    scrollbar:    false;
+    padding:      2px 0px 0px ;
+    background:   @background;
+}
+element {
+    border:       0;
+    padding:      10px; 
+}
+element normal.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+element normal.urgent {
+    background-color: @red;
+    text-color:       @background;
+}
+element normal.active {
+    background-color: @green;
+    text-color:       @background;
+}
+element selected.normal {
+    background-color: @blue;
+    border-radius:    10px;
+    text-color:       @background;
+}
+element selected.urgent {
+    background-color: @red;
+    text-color:       @background;
+}
+element selected.active {
+    background-color: @yellow;
+    text-color:       @background;
+}
+element alternate.normal {
+    background-color: @background;
+    text-color:       @foreground;
+}
+element alternate.urgent {
+    background-color: @green;
+    text-color:       @background;
+}
+element alternate.active {
+    background-color: @green;
+    text-color:       @background;
+}
+element-text {
+    cursor:           inherit;
+    highlight:        inherit;
+    text-color:       inherit;
+}
+element-icon {
+    size:             1.0000em;
+    cursor:           inherit;
+    text-color:       inherit;
+}
+
+scrollbar {
+    width:        0px;
+    border:       0;
+    handle-color: @yellow;
+    handle-width: 8px;
+    padding:      0;
+}
+sidebar {
+    border:       0px 0px 0px;
+    padding:      5px 0 0;
+    border-color: @separatorcolor;
+}
+button {
+    spacing:    0;
+    background: @background;
+    text-color: @foreground;
+}
+button.selected {
+    background-color: @border;
+    border-radius:    50px;
+    text-color:       @background;
+}
+case-indicator {
+    spacing:    0;
+    text-color: @foreground;
+}
+entry {
+    spacing:    10px;
+    padding:	10px;
+    text-color: @foreground;
+    placeholder:        "Search";
+    placeholder-color:  @foreground;
+}
+prompt {
+    spacing:    10px;
+    padding:	10px;
+    text-color: @foreground;
+}
+inputbar {
+    background-color: @background;
+    margin:   0px 0px 10px;
+    border:         10px;
+    border-radius:  0px;
+    border-color:   @background;
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     10px 0.3em 0em 0em;
+    text-color: @foreground;
+}
