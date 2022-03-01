@@ -40,7 +40,7 @@ button_uwheel_command =
 button_dwheel_command = 
 button_font = CaskaydiaCove Nerd Font 12
 button_font_color = #181f21 100
-button_padding = 10 30 
+button_padding = 10 10 
 button_background_id = 3
 button_centered = 1
 button_max_icon_size = 0
@@ -49,44 +49,44 @@ button_margin = 1 1
 #Button 1 
 button = new 
 button_text =  
-button_lclick_command = wmctrl -s 1 
+button_lclick_command = firefox && wmctrl -s 1
 button_uwheel_command = wmctrl -s 1
 button_font = CaskaydiaCove Nerd Font 11
 button_font_color = #e06e6e 100 
-button_padding = 8 35 
+button_padding = 8 10 
 button_center = 0
 button_background_id = 1
 
 #Button 2
 button = new 
 button_text =   
-button_lclick_command = wmctrl -s 2 
+button_lclick_command = thunar && wmctrl -s 2 
 button_uwheel_command = wmctrl -s 2
 button_font = CaskaydiaCove Nerd Font 11 
 button_font_color = #e5c76b 100 
-button_padding = 6 30
+button_padding = 6 10
 button_center = 1
 button_background_id = 1
 
 #Button 2
 button = new 
 button_text = 
-button_lclick_command = wmctrl -s 3 
+button_lclick_command = zathura && wmctrl -s 3 
 button_uwheel_command = wmctrl -s 3
 button_font = CaskaydiaCove Nerd Font 11 
 button_font_color = #8ccf7e 100 
-button_padding = 8 30
+button_padding = 8 10
 button_center = 1
 button_background_id = 1
 
 # Button 4
 button = new 
 button_text =  
-button_lclick_command = wmctrl -s 4 
+button_lclick_command = Kotatogram && wmctrl -s 4 
 button_uwheel_command = wmctrl -s 4
 button_font = CaskaydiaCove Nerd Font 11 
 button_font_color = #67b0e8 100 
-button_padding = 8 30 
+button_padding = 8 10 
 button_center = 1
 button_background_id = 1
 
@@ -118,7 +118,7 @@ execp_background_id = 1
 # Volume
 execp = new
 execp_command = status vol
-execp_interval = 30
+execp_interval = 1000
 execp_font = CaskaydiaCove Nerd Font 10
 execp_padding = 5 6
 execp_font_color = #67b0e8 100

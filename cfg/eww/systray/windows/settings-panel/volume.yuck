@@ -7,7 +7,7 @@
     (label :text "" :class "volume-down")
     (scale
       :class "volume-scale"
-      :hexpand false
+      :hexpand false 
       :width 170
       :height 4
       :min 0

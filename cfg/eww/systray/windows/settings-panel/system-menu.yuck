@@ -2,9 +2,8 @@
   (box :class "systemmenu"
     :space-evenly true
     (button :onclick "systemctl poweroff" :class "system-menu-icon" :cursor "pointer" "")
-    (button :onclick "systemctl reboot" :class "system-menu-icon" :cursor
-"pointer" "ﰇ")
+    (button :onclick "systemctl reboot" :class "system-menu-icon" :cursor "pointer" "ﰇ")
     (button :onclick "bspc quit" :class "system-menu-icon" :cursor "pointer" "")
-    (button :onclick "slock" :class "system-menu" :cursor "pointer" ""
+    (button :onclick "slock" :class "system-menu-icon" :cursor "pointer" "")
   )
 )

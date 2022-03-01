@@ -6,11 +6,11 @@
 
 (defwindow settings-panel
   :monitor 0
-  :geometry (geometry :x "1%"
-            :y "-3%"
+  :geometry (geometry :x "-5%"
+            :y "2%"
             ; :width "30%"
             ; :height "30px"
-            :anchor "bottom left")
+            :anchor "top right")
   :stacking "fg"
   :reserve (struts :distance "0px" :side "bottom")
   :windowtype "dock"
@@ -22,5 +22,6 @@
     (fetch)
     (daily)
     (volume)
+    (brightness)
 
     (system-menu)))

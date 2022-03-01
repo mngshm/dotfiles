@@ -127,7 +127,7 @@ $background-dark: $black2;
 
 .brightness {
   border-radius: 0.5em;
-  background-color: $black1;
+  background-color: $background-dark;
   margin-top: 1rem;
 }
 
@@ -138,10 +138,10 @@ $background-dark: $black2;
 }
 
 .brightness-down, .brightness-up {
-  font-family: "feather";
-  font-size: 1.5rem;
+  font-family: "JetBrainsMono Ner Font";
+  font-size: 2rem;
   padding: 0 1rem 0 1rem;
-  color: $lavender;
+  color: $teal;
 }
 
 .volume-scale trough, .brightness-scale trough{
@@ -184,15 +184,11 @@ $background-dark: $black2;
   color: $yellow;
   margin-right: 0.1em;
   margin-left: 0.1em;
-  padding: 15px 
+  padding: 15px; 
 }
-.system-menu-icon:nth-child(5) { 
-  color: lavender; 
-  margin-right: 0.1rem;
-  margin-left: 0.1rem;
-  padding: 15px;
-}
+
 .system-menu-icon:hover{
-  background-color: $black0;
+  background-color: $lavender;
+  color: $background-dark;
   border-radius: 0.5em;
 }
