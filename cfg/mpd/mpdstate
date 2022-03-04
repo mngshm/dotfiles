@@ -1,0 +1,22 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:Music
+state: stop
+current: 0
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:[Undertronic Original] SharaX - Wolf Of Night (Sans & Papyrus Vocals).mp3
+1:【Rainych】 SAY SO - Doja Cat | Japanese Version (cover).mp3
+2:$atori Zoom - B.O.Y.S.N.E.X.T.D.O.O.R. (feat. Isaacwhy).mp3
+3:Adrianne ✨ The Orion Experience.mp3
+4:[Undertronic Original] SharaX - Wolf Of Night (Sans & Papyrus Vocals).mp3
+5:【Rainych】 SAY SO - Doja Cat | Japanese Version (cover).mp3
+6:【Rainych】 SAY SO - Doja Cat | Japanese Version (cover).mp3
+7:【Rainych】 SAY SO - Doja Cat | Japanese Version (cover).mp3
+playlist_end
