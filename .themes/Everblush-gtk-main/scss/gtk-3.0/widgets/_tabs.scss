@@ -1,0 +1,52 @@
+@use '../colors';
+
+tabs {
+  background: colors.$surface-1;
+
+  .top > & {
+    border-bottom: 2px solid colors.$surface-3;
+    tab {
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+    }
+  }
+
+  .right > & {
+    border-left: 2px solid colors.$surface-3;
+    tab {
+      border-left: 2px solid transparent;
+      margin-left: -2px;
+    }
+  }
+
+  .bottom > & {
+    border-top: 2px solid colors.$surface-3;
+    tab {
+      border-top: 2px solid transparent;
+      margin-top: -2px;
+    }
+  }
+
+  .left > & {
+    border-right: 2px solid colors.$surface-3;
+    tab {
+      border-right: 2px solid transparent;
+      margin-right: -2px;
+    }
+  }
+
+  tab {
+    padding: 8px;
+    color: transparentize(colors.$foreground-color, 0.8);
+    transition: border-color 100ms ease-in-out;
+
+    header &:checked {
+      border-color: colors.$primary-accent;
+      color: colors.$foreground-color;
+    }
+
+    header &:hover:not(:checked) {
+      border-color: transparentize(colors.$foreground-color, 0.8);
+    }
+  }
+}

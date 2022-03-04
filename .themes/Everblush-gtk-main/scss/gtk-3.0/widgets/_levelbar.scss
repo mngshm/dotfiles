@@ -1,0 +1,19 @@
+@use '../colors';
+
+levelbar {
+  trough {
+    block {
+      padding: 3px;
+      border-radius: 3px;
+
+      &.filled { background: colors.$secondary-accent; }
+      &.empty { background: colors.$surface-3; }
+    }
+  }
+
+  &.discrete {
+    block:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+}

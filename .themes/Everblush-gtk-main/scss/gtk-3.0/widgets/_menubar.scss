@@ -1,0 +1,13 @@
+@use '../colors';
+
+menubar {
+  background: colors.$surface-1;
+
+  menuitem {
+    padding: 5px;
+
+    &:hover {
+      background: colors.$surface-2;
+    }
+  }
+}

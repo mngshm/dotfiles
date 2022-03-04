@@ -1,0 +1,11 @@
+@use '../colors';
+
+progressbar {
+
+  trough {
+    background: colors.$highlight;
+    progress {
+      background: colors.$secondary-accent;
+    }
+  }
+}

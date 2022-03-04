@@ -1,0 +1,10 @@
+@use '../colors';
+
+iconview {
+  background: colors.$surface-3;
+
+  &:selected {
+    color: rgba(255,255,255,0.8);
+    background: colors.$primary-accent;
+  }
+}

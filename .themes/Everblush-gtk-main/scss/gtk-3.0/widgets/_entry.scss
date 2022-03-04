@@ -1,0 +1,28 @@
+@use '../colors';
+
+entry {
+  transition: all 100ms ease-in-out;
+  background: transparentize(white, 0.95);
+  border: 2px solid transparent;
+  padding: 6px;
+  border-radius: 5px;
+
+  &:focus {
+    border-color: colors.$accent-7;
+    background: transparentize(white, 0.9);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  image {
+    &.left { margin-right: 8px; }
+    &.right { margin-left: 8px; }
+  }
+
+  selection {
+    background: colors.$primary-accent;
+    color: lighten(colors.$foreground-color, 50%);
+  }
+}

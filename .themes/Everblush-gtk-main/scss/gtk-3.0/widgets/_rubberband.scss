@@ -1,0 +1,8 @@
+@use '../colors';
+
+// TODO: use neutral colors for rubberband
+
+rubberband, .rubberband {
+  background-color: transparentize(colors.$accent-4, 0.9);
+  border: 1px solid transparentize(colors.$accent-4, 0.4);
+}

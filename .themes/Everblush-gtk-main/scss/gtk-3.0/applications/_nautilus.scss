@@ -1,0 +1,29 @@
+@use '../colors';
+
+window.nautilus-window {
+  .nautilus-menu-sort-heading {
+    margin: 0 -5px;
+  }
+
+  // those are the items inside the nautilus canvas
+  .nautilus-canvas-item {
+    &:selected, &:active {
+      background: #2d2d2d;
+      border-radius: 3px;
+    }
+  }
+
+  // this is the floating bar usually shown at the bottom right of nautilus when elements are selected
+  .floating-bar {
+    background: colors.$surface-2;
+    color: colors.$foreground-color;
+    padding: 4px;
+
+    &.bottom.left {
+      border-top-right-radius: 3px;
+    }
+    &.bottom.right {
+      border-top-left-radius: 3px;
+    }
+  }
+}

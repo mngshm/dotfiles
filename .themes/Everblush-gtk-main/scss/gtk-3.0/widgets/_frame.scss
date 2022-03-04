@@ -1,0 +1,18 @@
+@use '../colors';
+
+frame {
+  &.app-notification border {
+    background: colors.$surface-3;
+    border: 0;
+  }
+}
+
+frame > border, .frame {
+  border: 1px solid colors.$surface-3;
+}
+
+scrolledwindow {
+  viewport.frame {
+    border-style: none;
+  }
+}

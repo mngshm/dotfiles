@@ -1,0 +1,15 @@
+@use '../colors';
+
+window, dialog, assistant {
+  background: colors.$surface-1;
+  color: colors.$foreground-color;
+}
+
+window {
+  &.csd {
+    decoration {
+      box-shadow: 0 0 8px 0 black;
+      margin: 8px;
+    }
+  }
+}

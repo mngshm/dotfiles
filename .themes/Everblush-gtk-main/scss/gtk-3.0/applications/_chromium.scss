@@ -1,0 +1,62 @@
+@use '../colors';
+
+// TODO: theme "this tab is playing audio" tooltip section
+// TODO: find out how bookmark drag and drop boxes render their buggy 1px border
+// TODO: check how separators are rendered. `separator, .separator` background affects a larger area than wanted.
+
+window.background.chromium {
+  // active tab and toolbar colors
+  background: colors.$surface-4;
+  color: colors.$foreground-color;
+
+  // context menu colors
+  menu {
+    background: colors.$surface-4;
+    menuitem {
+      color: colors.$foreground-color;
+      &:hover {
+        background: colors.$highlight;
+      }
+      &:disabled label {
+        color: colors.$highlight;
+      }
+    }
+  }
+
+  // tab bar / headerbar
+  headerbar, menubar {
+    background: colors.$surface-1;
+
+    label {
+      color: darken(colors.$foreground-color, 30%);
+    }
+
+    // this is a workaround to position titlebuttons to the very right
+    .titlebutton {
+      padding: 100px 80px;
+    }
+  }
+
+  scrollbar {
+    button {
+      background: colors.$highlight;
+      color: colors.$foreground-color;
+    }
+
+    trough {
+      background: transparent;
+    }
+    slider {
+      background: colors.$highlight;
+    }
+    junction {
+      background: colors.$highlight;
+    }
+  }
+
+  // address bar
+  textview {
+    background-color: colors.$surface-3;
+    color: colors.$foreground-color;
+  }
+}

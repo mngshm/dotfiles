@@ -1,0 +1,9 @@
+@use '../colors';
+
+menu {
+  background: rgba(255,255,255,0.1);
+  menuitem {
+    padding: 5px;
+    &:hover { background: colors.$surface-3; }
+  }
+}

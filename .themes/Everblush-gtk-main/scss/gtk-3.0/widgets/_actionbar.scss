@@ -1,0 +1,6 @@
+@use '../colors';
+
+actionbar {
+  background: colors.$surface-2;
+  border-top: 1px solid colors.$surface-3;
+}

@@ -1,0 +1,32 @@
+@use '../colors';
+
+calendar {
+  background: colors.$surface-2;
+
+  &.button {
+    background: colors.$surface-3;
+    color: rgba(255,255,255,0.5);
+
+    &:hover { color: rgba(255,255,255,0.8); }
+    &:disabled { color: rgba(255,255,255,0.1); }
+  }
+
+  &.header {
+    background: colors.$surface-3;
+
+  }
+
+  &.highlight {
+    color: rgba(255,255,255,.2);
+  }
+
+  &:selected {
+    color: white;
+    border-radius: 0.3em;
+    background: colors.$primary-accent;
+  }
+
+  &:indeterminate {
+    color: rgba(255,255,255,.1);
+  }
+}
