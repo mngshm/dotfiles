@@ -1,0 +1,228 @@
+
+#main-window
+{
+    background: transparent !important;
+}
+
+#TabsToolbar,
+.table-widget-empty-text
+{
+    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+ }
+
+#TabsToolbar:-moz-lwtheme-brighttext,
+.table-widget-empty-text:-moz-lwtheme-brighttext
+{
+    -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+ }
+
+.tabbrowser-tab[selected="true"] .tab-label:-moz-lwtheme-brighttext
+{
+    color:white !important;
+}
+
+.tabbrowser-tab .tab-label:-moz-lwtheme-brighttext
+{
+    color:rgba(255,255,255,0.7) !important;
+}
+
+
+.tabbrowser-tab[selected="true"] .tab-background:-moz-lwtheme-brighttext
+{
+    box-shadow: inset 0em -4em 0em var(--toolbar-bgcolor) !important;
+}
+
+#navigator-toolbox {
+    background-color: transparent !important;
+}
+
+/* menubar + bookmarks */
+
+:root #nav-bar,
+#PersonalToolbar,
+#titlebar
+{
+ -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+ -moz-font-smoothing-background-color: -moz-mac-vibrant-titlebar-dark !important;
+}
+
+#TabsToolbar, #nav-bar, #PersonalToolbar {
+ -moz-appearance: -moz-mac-vibrancy-dark !important;
+}
+
+/* simplify tabs */
+
+#titlebar #TabsToolbar {
+	padding: 6px 0px 2px 6px !important;
+	background: rgba(var(--accent-color), 1) !important;
+}
+.titlebar-spacer[type="pre-tabs"] {
+	/* border: 0 !important; */
+	display: none;
+}
+
+#tabbrowser-tabs:not([movingtab]) > .tabbrowser-tab[beforeselected-visible]::after, #tabbrowser-tabs[movingtab] > .tabbrowser-tab[visuallyselected]::before, .tabbrowser-tab[visuallyselected]::after {
+    opacity: 0 !important;
+}
+.tab-line {
+    height: 0px !important;
+}
+
+.tabbrowser-tab {
+    margin-left: 15px !important;
+    /* margin-right: 4px !important; */
+}
+.tabbrowser-tab:not([visuallyselected="true"]), .tabbrowser-tab:-moz-lwtheme {
+
+}
+
+tab[selected="true"] .tab-content {
+
+}
+tab[selected="true"] .tab-background {
+
+}
+
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+    border-left: 0 !important;
+    opacity: 0 !important;
+}
+
+.tab-close-button {
+	transition: all 0.3s ease !important;
+  border-radius: 30px !important;
+  transform: translate(-3px,0px);
+}
+.tab-close-button:hover {
+    fill-opacity: 0.2 !important;
+}
+
+.tabbrowser-tab > .tab-stack > .tab-background {
+	border-radius: 50px !important;
+}
+.tabbrowser-tab > .tab-stack > .tab-background:not([selected="true"]) {
+	transition: all 0.3s ease !important;
+}
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]) {
+    border-color: #000 !important;
+    border-color: rgba(0,0,0, 1) !important;
+}
+
+
+/* urlbar */
+#urlbar-background
+{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+
+    padding: 1px !important;
+
+    background: #404040 !important;
+    box-shadow: inset 0px 0px 1px 0px #e3e3e3 !important;
+    border-radius: 30px !important;
+    border-color: #1a1a1a !important;
+}
+
+#urlbar:-moz-lwtheme, #navigator-toolbox #searchbar:-moz-lwtheme
+{
+    color: #FFFFFF !important;
+}
+
+/* bookmarks */
+.bookmark-item{
+  border-radius: 30px !important;
+  transform: translate(0,-1px);
+}
+
+.bookmark-item:hover{
+  background-color: transparent !important;
+}
+
+
+
+.bookmark-item > .toolbarbutton-icon
+{
+
+  display: flex !important;
+  justify-content: center !important;
+
+	border-radius: 100% !important;
+	padding: 6px !important;
+	height: 28px !important;
+	width: 28px !important;
+	color: #f9f9fb !important;
+	background-color: rgba(80,80,80,0.1) !important;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+
+}
+
+.bookmark-item:hover > .toolbarbutton-icon
+{
+	background-color: rgba(100,100,100,0.9) !important;
+}
+
+.bookmark-item:active
+{
+	color: rgba(160,160,160,0.9) !important;
+}
+
+#tabs-newtab-button .toolbarbutton-icon {
+  border-radius: 30px !important;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#tabs-newtab-button:hover .toolbarbutton-icon {
+  background-color: rgba(130,130,130,0.5) !important;
+}
+
+#tabs-newtab-button:active .toolbarbutton-icon {
+  background-color:  rgba(180,180,180,0.7) !important;
+  color: rgba(110,110,110,0.7) !important;
+}
+
+.toolbarbutton-badge-stack{
+  border-radius: 30px !important;
+}
+
+#tracking-protection-icon-container{
+  border-radius: 30px !important;
+}
+
+#identity-icon-box{
+  border-radius: 30px !important;
+}
+
+#identity-permission-box{
+  border-radius: 30px !important;
+}
+
+#star-button-box{
+  border-radius: 30px !important;
+}
+
+#reload-button{
+   border-radius: 30px !important;
+}
+
+#notification-popup-box{
+  border-radius: 30px !important;
+}
+
+#back-button:hover{
+  border-radius: 30px !important;
+}
+
+#forward-button:hover{
+  border-radius: 30px !important;
+}
+
+#PlacesToolbarItems {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+tab[pending], #alltabs-popup menuitem[pending] {background-color:  rgba(80, 80, 80,0.3)  !important;}
