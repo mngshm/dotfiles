@@ -3,7 +3,7 @@
 xrdb -merge ~/.Xresources
 pgrep -x sxhkd > /dev/null || sxhkd &
 #bspc monitor -d WEB CODE FILES CHAT MUSIC
-bspc monitor -d WEB CODE FILES CHAT MUSIC
+bspc monitor -d 1 2 3 4 5
 ############Window Settings ####################
 bspc config border_width         1
 bspc config window_gap           5
@@ -21,13 +21,16 @@ bspc config normal_border_color "#131a1c"
 bspc rule -a KotatogramDesktop desktop='^4'
 #bspc rule -a firefox desktop='^1'
 bspc rule -a Zathura state=tiled
+bspc rule -a Emacs state=tiled manage=on monitor=eDP-1-1 follow=on
 dunst &
 
 ######### Other Settings ################
 xsetroot -cursor_name left_ptr &
 xinput set-prop 12 309 1
-compix &
+picom &
 
 ######## THe real beauty behind rice ####
 xwallpaper --zoom ~/Pictures/city-topview.png
-tint2
+#tint2
+polybar
+mpd &

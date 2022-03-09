@@ -67,5 +67,5 @@ then
 elif [ "$1" = 'area' ];
 then
 	msg='Area screenshot saved and copied to clipboard!'
-	shot 'maim -u -s -n -m 1' "${msg}"
+	shot 'maim -u -o -s -n -m 1' "${msg}"
 fi

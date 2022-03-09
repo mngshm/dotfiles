@@ -6,12 +6,12 @@ super + Return
         kitty
 # program launcher
 super + space
-        rofi -show drun -theme applications -show-icons
+        ~/.config/rofi/launchers/colorful/launcher.sh
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 #screenshot
-super + shift + s
+super + ctrl + s
 	wackysnap area
 
 # EWW Keybinds
@@ -135,3 +135,11 @@ super + shift + {Left,Down,Up,Right}
 	dir={west,south,north,east}; \
 	bspc node -s "$dir.local" --follow \
 	    || bspc node -m "$dir" --follow
+
+#
+#Brightness control
+#
+XF86MonBrightnessUp
+	brightnessctl --device='intel_backlight' s +10%
+XF86MonBrightnessDown
+	brightnessctl --device='intel_backlight' s 10%-
