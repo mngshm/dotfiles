@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: map
+# key: map                                         
+# --
+
+{${1:$$(when (and yas-modified-p yas-moving-away-p)
+            (->> yas-text
+            (s-split " ")
+            (-map (lambda (key) (format ":%s %s" key key)))
+            (s-join " ")))}}

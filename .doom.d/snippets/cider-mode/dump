@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: dump
+# uuid: dump
+# key: dump
+# condition: t
+# --
+
+(pm/dump :`(insert-random-uuid)`)

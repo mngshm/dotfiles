@@ -1,0 +1,5 @@
+# key: dis
+# name: dispatch
+# --
+
+(re-frame/dispatch [$0])

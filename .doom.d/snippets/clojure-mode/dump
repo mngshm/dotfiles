@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: dump
+# uuid: dump
+# key: dump
+# condition: t
+# --
+
+(postmortem.core/dump :`(insert-random-uuid)`$0)`(evil-normal-state)`

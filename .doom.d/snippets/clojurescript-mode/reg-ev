@@ -1,0 +1,8 @@
+# key: reg-ev
+# name: reg-ev
+# --
+(re-frame/reg-event-db
+ :${1:ev-name}
+ base-middleware
+ (fn ${1:$(replace-regexp-in-string "^.*/" "" yas-text)} [db [_]]
+   ))

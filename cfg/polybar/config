@@ -38,8 +38,8 @@ bottom = false
 line-size = 1
 wm-restack = bspwm
 
-modules-left = herbs    
-modules-center =  
+modules-left = mpd
+modules-center =
 modules-right = alsa mem battery wlan round-left time round-right settings 
 
 font-0 = CaskaydiaCove Nerd Font:style=Bold:pixelsize=11;3
@@ -50,7 +50,7 @@ font-3 = Dejavu Serif:fontformat=truetype:size=10:antialias=true;3
 [module/mpd]
 type = internal/mpd
 interval = 2
-format-online = <icon-prev><toggle><icon-next>
+format-online = <label-song><icon-prev><toggle><icon-next>
 icon-play-foreground = ${colors.color1}
 icon-play = 󰐊 
 icon-pause-foreground = ${colors.color1}
@@ -65,6 +65,7 @@ icon-play-underline = ${colors.color3}
 icon-next-underline = ${colors.color3}
 icon-pause-underline = ${colors.color3}
 icon-prev-underline = ${colors.color3}
+
 
 
 [module/alsa]
@@ -322,3 +323,7 @@ label-padding = 1
 label-empty = ""
 ;label-empty-foreground = ${color.blue-light}
 label-empty-padding = 2
+
+[module/settings]
+screenchange-reload = true
+pseudo-transparency = true

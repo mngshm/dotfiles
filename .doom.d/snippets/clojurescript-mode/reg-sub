@@ -1,0 +1,7 @@
+# key: reg-sub
+# name: reg-sub                
+# --
+(re-frame/reg-sub
+ ${1:sub-name}
+ (fn ${1:$(s-replace-regexp "^.*/" "" yas-text)}-input [[_ ]])
+ (fn ${1:$(s-replace-regexp "^.*/" "" yas-text)} [[]]))

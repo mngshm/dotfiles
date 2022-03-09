@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: spy
+# uuid: spy
+# key: spy
+# condition: t
+# --
+
+(postmortem.core/spy>> :`(insert-random-uuid)`$0)`(evil-normal-state)`
