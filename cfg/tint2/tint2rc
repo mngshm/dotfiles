@@ -1,6 +1,6 @@
 # Background 1
 rounded = 5
-border_width = 0
+border_width = 0  
 border_sides = TBLR
 background_color = #131a1c 100
 background_color_hover = #181f21 100
@@ -16,23 +16,30 @@ background_color = #22292b 100
 rounded = 7   
 border_width = 0
 border_sides = TBLR
-background_color =#bab3e5 100
+background_color =#9bdead 100
+
+# Background 4 
+rounded = 5 
+border_width = 0 
+border_sides = TBLR 
+background_color = #22292b 100
 
 # Panel
-panel_items = PPPPP:EEEC
-panel_size = 98% 45 
-panel_padding = 5 5 5
-panel_margin = 3 10
+panel_items = PPPPP:EEEP:SC
+panel_size = 100% 45
+panel_padding = 5 5 5 
+panel_margin = 0 0  
 panel_background_id = 1
 panel_position = bottom right vertical 
 panel_monitor = all
 panel_window_name = tint2
-panel_shrink = 0
+panel_shrink = 1
 panel_layer = normal
+panel_border = LR 
 
 # Launcher
 button = new
-button_text = 󰮯 
+button_text =  
 button_lclick_command = eww -c ~/.config/eww/systray open settings-panel
 button_rclick_command = killall eww
 button_mclick_command = 
@@ -44,25 +51,28 @@ button_padding = 10 10
 button_background_id = 3
 button_centered = 1
 button_max_icon_size = 0
-button_margin = 1 1 
+button_margin = 1 
 
 #Button 1 
 button = new 
 button_text =  
 button_lclick_command = firefox && wmctrl -s 1
 button_uwheel_command = wmctrl -s 1
-button_font = CaskaydiaCove Nerd Font 11
+button_font = CaskaydiaCove Nerd Font 12
 button_font_color = #e06e6e 100 
-button_padding = 8 10 
-button_center = 0
+button_padding = 8 8 
+button_center = 1
 button_background_id = 1
+task_tooltip = 1
+task_thumbnail = 1
+task_thumbnail_size = 400
 
 #Button 2
 button = new 
 button_text =   
 button_lclick_command = thunar && wmctrl -s 2 
 button_uwheel_command = wmctrl -s 2
-button_font = CaskaydiaCove Nerd Font 11 
+button_font = CaskaydiaCove Nerd Font 12 
 button_font_color = #e5c76b 100 
 button_padding = 6 10
 button_center = 1
@@ -73,7 +83,7 @@ button = new
 button_text = 
 button_lclick_command = zathura && wmctrl -s 3 
 button_uwheel_command = wmctrl -s 3
-button_font = CaskaydiaCove Nerd Font 11 
+button_font = CaskaydiaCove Nerd Font 12 
 button_font_color = #8ccf7e 100 
 button_padding = 8 10
 button_center = 1
@@ -84,42 +94,58 @@ button = new
 button_text =  
 button_lclick_command = Kotatogram && wmctrl -s 4 
 button_uwheel_command = wmctrl -s 4
-button_font = CaskaydiaCove Nerd Font 11 
+button_font = CaskaydiaCove Nerd Font 12 
 button_font_color = #67b0e8 100 
 button_padding = 8 10 
 button_center = 1
 button_background_id = 1
 
-# Battery
-execp = new
-execp_command = status bat
-execp_interval = 30
-execp_font = CaskaydiaCove Nerd Font 10
-execp_font_color = #e5c76b 100
-execp_padding = 10 10
-execp_background_id = 2 
+# Button 5
+button = new
+button_text = 
+button_lclick_command = xbacklight -inc 5
+button_rclick_command = xbacklight -dec 5
+button_mclick_command = 
+button_uwheel_command = xbacklight -inc 1
+button_dwheel_command = xbacklight -dec 1
+button_font = CaskaydiaCove Nerd Font Medium 11.12
+button_font_color = #b3b9b8 100
+button_padding = 8 10  
+button_background_id = 4 
+button_centered = 1 
 
 # Clock
 time1_format = %H %M
-time1_font = CaskaydiaCove Nerd Font 11
+time1_font = DM Sans Mono 12
 clock_font_color = #bdc3c2 100
 clock_background_id = 1
-clock_padding = 0 8
+clock_padding = 0 10
 
 # Wifi
 execp = new
 execp_command = status wifi 
 execp_interval = 30
-execp_font = CaskaydiaCove Nerd Font 10
-execp_padding = 10 10  
+execp_font = JetBrainsMono Nerd Font 11
+execp_padding = 5 8 
 execp_font_color = #8ad8ef 100
 execp_background_id = 1 
+execp_center = 0 
 
-# Volume
+# Battery  
+execp = new
+execp_command = ~/.config/tint2/scripts/bat
+execp_interval = 100
+execp_font = JetBrainsMono nerd font 11
+execp_padding = 2 3 
+execp_font_color = #9bdead 100
+execp_background_id = 1 
+execp_centered = 1
+
+# volume
 execp = new
 execp_command = status vol
 execp_interval = 1000
-execp_font = CaskaydiaCove Nerd Font 10
+execp_font = caskaydiacove nerd font 11
 execp_padding = 5 6
 execp_font_color = #67b0e8 100
 execp_background_id = 2
@@ -135,4 +161,12 @@ separator = new
 separator_background_id = #bdc3c2 80 
 separator_size = 2 
 separator_style = line
-separator_padding = 0 
+
+# System tray (notification area)
+systray_padding = 10 4 7
+systray_background_id = 4
+systray_sort = ascending
+systray_icon_size = 20
+systray_icon_asb = 100 0 0
+systray_monitor = primary
+systray_name_filter = string
