@@ -1,9 +1,8 @@
 # Setting PROMPT
 
-PS1=$'\e[1;31m󰮯\e[0m \e[1;36m$(pwd | sed "s,^$HOME,~,")\E[0m \e[1;34m$\e[0m '
+PS1=$'\e[1;31m󰮯 \e[0m\e[1;36m$(pwd | sed "s,^$HOME,~,")\E[0m \e[1;32m$\e[0m '
 
 alias ls="lsd" 
-alias ps="pacman -S" 
 alias nv="nvim"
 alias gc="git clone"
 alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
@@ -11,8 +10,44 @@ alias gp="git push"
 alias v="vim"
 alias rx="rxfetch"
 
+# XBPS Aliases
+alias xi="doas xbps-install"
+alias xq="doas xbps-query -Rs"
+alias xr="doas xbps-remove"
+alias xo="doas xbps-remove -o"
+
+# FZF TAB COMPLETION
+. ~/.fzf/shell/completion.mksh
+. ~/.fzf/shell/key-bindings.mksh
+
+$FZF_DEFAULT_OPTS
+$FZF_TMUX
+$FZF_TMUX_OPTS
+$FZF_TMUX_HEIGHT
+$FZF_CTRL_T_COMMAND
+$FZF_CTRL_T_OPTS
+$FZF_ALT_C_COMMAND
+$FZF_ALT_C_OPTS
+$FZF_CTRL_R_OPTS
+
 # History
 HISTFILE="$HOME/.mksh_history"
 HISTSIZE=5000
 export PATH="$HOME/.local/bin:$PATH"
 
+# XDEB 
+export XDEB_OPT_DEPS=true
+export XDEB_OPT_SYNC=true
+export XDEB_OPT_WARN_CONFLICT=true
+export XDEB_OPT_FIX_CONFLICT=true
+export PATH=$PATH:$HOME/.local/bin 
+
+# FZF COLORS 
+export FZF_DEFAULT_OPTS='
+  --color fg:#5d6466,bg:#1e2527
+  --color bg+:#9ed9d1,fg+:#2c2f30
+  --color hl:#dadada,hl+:#26292a,gutter:#1e2527
+  --color pointer:#131a1c,info:#606672
+  --border horizontal 
+  --color border:#1e2527
+  --height 50'
