@@ -15,6 +15,7 @@ alias xi="doas xbps-install"
 alias xq="doas xbps-query -Rs"
 alias xr="doas xbps-remove"
 alias xo="doas xbps-remove -o"
+alias cat="bat"
 
 # FZF TAB COMPLETION
 . ~/.fzf/shell/completion.mksh
@@ -51,3 +52,7 @@ export FZF_DEFAULT_OPTS='
   --border horizontal 
   --color border:#1e2527
   --height 50'
+
+export  BAT_THEME=Everblush
+
+. ~/Documents/polyglot.sh
