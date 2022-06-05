@@ -13,15 +13,19 @@
 
 </p> 
  
-# Everblush 
+# Showcase 🍚
 ![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-rice.png)
+
+![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-polybar.png)
+
+![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/ff.png)
 
 # To be Noted 
 - [Everblush](https://github.com/mangeshrex/everblush.vim) is a dark and beautiful colorscheme which I've used in my latest rice. 
 - I use bspwm as my daily life window manager bcuz its super minimal and fill my needs. 
 - I mostly use Nerd Font, Here - CaskaydiaCove Nerd Font Mono.
 - For GTK3 I use my custom [Everblush theme](https://github.com/mangeshrex/everblush-gtk) made with Phocus/gtk3. Also you might need to modify the theme according to your preference ^-^ 
-- I use [NvChad](https://github.com/NvChad/NvChad) / [Conscious](https://github.com/Manas140/Conscious) for neovim, I mostly swap between whenever I get bored (Both the themes have Everblush Support).
+- I use [Conscious](https://github.com/Manas140/Conscious) for neovim, I mostly swap between whenever I get bored (Both the themes have Everblush Support).
 - I am using tint2 as my default bar in bspwm (friendship ends with polybar ;-;). 
 - My Old nord Dotfiles can be found in the [nord branch](https://github.com/Mangeshrex/dotfiles/tree/nord) of this repository.
 
@@ -36,4 +40,5 @@
   > After you're done with all this, copy the configuration files from cloned directory to particular path. 
 
 # Thank You 
-- [rxyhn](https://github.com/rxyhn) <3.
+- @Manas140 - Conscious
+- @snthcy for firefox
