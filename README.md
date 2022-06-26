@@ -18,9 +18,9 @@
 <img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=e74c4c&labelColor=1b2224&style=for-the-badge">
 </p> 
 
-<div align="right">
+<p align="right">
 <img src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-rice.png" width="400px">
-</div>
+</p>
 
 Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on the internet. You'll find my shitty/beautiful/cool configurations here :D. This is my personal configuration of BSPWM Window Manager.
 
