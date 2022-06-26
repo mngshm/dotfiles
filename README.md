@@ -18,6 +18,8 @@
 <img src="https://img.shields.io/github/forks/Mangeshrex/dotfiles?color=e74c4c&labelColor=1b2224&style=for-the-badge">
 </p> 
 
+
+
 <img align="right" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-rice.png" width="400px">
 
 Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on the internet. You'll find my shitty/beautiful/cool configurations here :D. This is my personal configuration of BSPWM Window Manager.
@@ -30,6 +32,9 @@ Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on th
 - Compositor: [Picom](https://github.com/yshui/picom)
 - File Manager: [Thunar](https://docs.xfce.org/xfce/thunar/start)
 - GUI Editor: [Vscode](https://github.com/microsoft/vscode)
+
+
+
 
 # Showcase 🍚
 ![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-polybar.png)
