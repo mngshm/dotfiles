@@ -34,6 +34,7 @@ Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on th
 - GUI Editor: [Vscode](https://github.com/microsoft/vscode)
 
 </br>
+</br>
 
 # Showcase 🍚
 ![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-polybar.png)
