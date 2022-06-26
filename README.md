@@ -37,7 +37,6 @@ Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on th
 </br>
 
 # Showcase 🍚
-![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/everblush-polybar.png)
 ![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/ff.png)
 
 # To be Noted 
