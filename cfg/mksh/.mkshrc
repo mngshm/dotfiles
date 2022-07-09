@@ -1,7 +1,3 @@
-# Setting PROMPT
-
-PS1=$'\e[1;31m󰮯 \e[0m\e[1;36m$(pwd | sed "s,^$HOME,~,")\E[0m \e[1;32m$\e[0m '
-
 alias ls="lsd" 
 alias nv="nvim"
 alias gc="git clone"
@@ -9,6 +5,9 @@ alias rel="xrdb merge ~/.Xresources && kill -USR1 $(pidof st)"
 alias gp="git push" 
 alias v="vim"
 alias rx="rxfetch"
+alias tree="tree -C"
+alias xw="xwallpaper --zoom"
+alias blueon="doas sv start bluetoothd && doas rfkill unblock bluetooth"
 
 # XBPS Aliases
 alias xi="doas xbps-install"
@@ -17,7 +16,6 @@ alias xr="doas xbps-remove"
 alias xo="doas xbps-remove -o"
 alias cat="bat"
 
-# FZF TAB COMPLETION
 . ~/.fzf/shell/completion.mksh
 . ~/.fzf/shell/key-bindings.mksh
 
@@ -27,8 +25,8 @@ $FZF_TMUX_OPTS
 $FZF_TMUX_HEIGHT
 $FZF_CTRL_T_COMMAND
 $FZF_CTRL_T_OPTS
-$FZF_ALT_C_COMMAND
-$FZF_ALT_C_OPTS
+$FZF_ALT_C_COMMANasdfskdfksdjfkjl
+
 $FZF_CTRL_R_OPTS
 
 # History
@@ -45,14 +43,16 @@ export PATH=$PATH:$HOME/.local/bin
 
 # FZF COLORS 
 export FZF_DEFAULT_OPTS='
-  --color fg:#5d6466,bg:#1e2527
-  --color bg+:#9ed9d1,fg+:#2c2f30
+  --color fg:#dadada,bg:#232a2d
+  --color bg+:#bab3e5,fg+:#2c2f30
   --color hl:#dadada,hl+:#26292a,gutter:#1e2527
   --color pointer:#131a1c,info:#606672
   --border horizontal 
   --color border:#1e2527
-  --height 50'
+  --height 40'
 
-export  BAT_THEME=Everblush
+export BAT_THEME=Everblush
+export G_SLICE=always-malloc
 
-. ~/Documents/polyglot.sh
+PS1=$'\E[30m\e[30m\E[40m\E[35m \E[37m\E[40m''${PWD/"$HOME"/\~}'$'\E[0m\E[30m\e[0m \E[30m\e[30m\a\e[33m\e[40m\a$(date +%H:%M)\a\e[0m\E[0m\E[30m\e[0m\n \e[31m\e[32m\e[34\e[0m '
+
