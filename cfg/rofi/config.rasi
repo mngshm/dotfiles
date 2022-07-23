@@ -2,7 +2,7 @@ configuration {
 	modi:					"drun";
 	display-drun: 			"Apps";
 	drun-display-format:    "{name}";
-	font:				    "JetBrainsMono Nerd Font 9";
+	font:				    "Iosevka Mayukai Codepro Bold 9";
 	show-icons:              true;
 	icon-theme: 			"Papirus";
 }
@@ -10,22 +10,21 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				#181f21;
+	bg:				#0a1114;
 	fg:				#dadada;
-	accent:			#8ed8d1;
-        active:      	#3b4244;
-      	rad:			12px;
-
+	accent:			#67b0e8;
+        active:      	#141b1e;
+      	rad:			-0px;
 	background-color: @bg;
 	text-color:	@fg;
 }
 
 window {
 	transparency: "real";
-	height: 50%;
-        width: 40%;
-	location: east;
-	x-offset: -30%;
+	height: 100%;
+        width: 30%;
+	location: west;
+	x-offset: -0.8%;
 	y-offset: 0%;
 	border-radius: @rad;
 }
@@ -34,17 +33,17 @@ inputbar {
 	children: [ textbox, entry ];
 	expand: false;
 	margin: 20px;
-	border-radius: @rad;
+	border-radius: 50px;
 	background-color: @active;
 }
 
 textbox {
-    str: "";
+    str: "󰊠";
     expand: false;
-    padding: 0 1% 0;
+    padding: 0 1% 1%;
     horizontal-align: 0.5;
-    vertical-align: 0.5;
-    border-radius: @rad;
+    vertical-align: 0.7;
+    border-radius: 20px;
     background-color: @accent;
     text-color: @bg;
     font: "Material Icons 17";
@@ -53,16 +52,16 @@ textbox {
 entry{
 	expand: true;
 	padding: 2%;
-    placeholder: "Search";
-	border-radius: @rad;
-        background-color: @active;
+  placeholder: "Search";
+  border-radius: 50px;
+  background-color: @active;
 }
 
 listview {
-	columns: 5;
+	columns: 3;
 	lines: 2;
 	cycle: false;
-    margin: 20px;
+    margin: 50px;
 }
 
 element {
@@ -76,7 +75,7 @@ element-text, element-icon {
 	background-color: inherit;
 }
 
-element-icon { size: 48px; }
+element-icon { size: 50px; }
 listview, element, element selected, element-text, element-icon { cursor: pointer; }
 
 element selected {

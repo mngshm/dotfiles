@@ -1,26 +1,27 @@
-#! /bin/sh
+#!/bin/sh
 
 xrdb -merge ~/.Xresources
 pgrep -x sxhkd > /dev/null || sxhkd &
 #bspc monitor -d WEB CODE FILES CHAT MUSIC 
-bspc monitor -d WEB CODE FILES CHAT MUSIC 
+bspc monitor -d 1 2 3 4 5 
+
 ############Window Settings ####################
+
 bspc config border_width         1
 bspc config window_gap           5 
 bspc config focus_follows_pointer	true
 bspc config split_ratio          0.50
 bspc config borderless_monocle   false
-bspc config gapless_monocle      true
-bspc config border_radius        5 
+bspc config gapless_monocle      false
 
-########## Border Colors #################
-bspc config focused_border_color "#131a1c"
-bspc config normal_border_color "#131a1c"
+ bspc config focused_border_color "#131a1c"
+ bspc config normal_border_color "#131a1c"
 
 ######### Program settings ################
 bspc rule -a KotatogramDesktop desktop='^4'
-bspc rule -a firefox desktop='^1'
+bspc rule -a Firefox desktop='^1'
 bspc rule -a Zathura state=tiled 
+bspc rule -a TelegramDesktop desktop='^4'
 dunst & 
 
 ######### Other Settings ################
@@ -29,5 +30,5 @@ xinput set-prop 12 309 1
 compix & 
 
 ######## THe real beauty behind rice ####
-xwallpaper --zoom ~/wallpaper/personal-5.jpg
-tint2
+xwallpaper --zoom ~/wall/whitewaves.jpg & 
+tint2 &
