@@ -22,7 +22,7 @@
 
 <img align="right" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/rice.png" width="380px">
 
-Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on the internet. You'll find my shitty/beautiful/cool configurations here :D. This is my personal configuration of BSPWM Window Manager.
+Heyyo, Thanks for dropping by....this is a place where I showcase my dotfiles on the Internet. You'll find my shitty/beautiful/cool configurations here :D. This is my personal configuration of BSPWM Window Manager.
 
 - Window Manager: [BSPWM](https://github.com/baskerville/bspwm)
 - Text Editor: [Neovim](https://github.com/neovim)
@@ -36,16 +36,14 @@ Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on th
 </br>
 </br>
 
-# Showcase 🍚
-![Everblush](https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/ff.png)
-
 # To be Noted 
 - [Everblush](https://github.com/mangeshrex/everblush.vim) is a dark and beautiful colorscheme which I've used in my latest rice. 
-- I use bspwm as my daily life window manager bcuz its super minimal and fill my needs. 
-- I mostly use Nerd Font, Here - CaskaydiaCove Nerd Font Mono.
+- I use bspwm as my daily life window manager bcuz its super minimal and fulfill my needs. 
+- I am using JetBrainsMono and a Custom font called [Iosevka Mayukai](https://github.com/Iosevka-Mayukai/Iosevka-Mayukai).
 - For GTK3 I use my custom [Everblush theme](https://github.com/mangeshrex/everblush-gtk) made with Phocus/gtk3. Also you might need to modify the theme according to your preference ^-^ 
 - I use [Conscious](https://github.com/Manas140/Conscious) for neovim, I mostly swap between whenever I get bored (Both the themes have Everblush Support).
-- I am using tint2 as my default bar in bspwm (friendship ends with polybar ;-;). 
+- I am using tint2 as my default bar in bspwm (friendship ends with polybar ;-;).
+- Picom-Ibhagwan as my Picom Fork.  
 - My Old nord Dotfiles can be found in the [nord branch](https://github.com/Mangeshrex/dotfiles/tree/nord) of this repository.
 
 # Installation 
@@ -59,5 +57,6 @@ Heyyo, Thanks for dropping by this is a place where i showcase my dotfiles on th
   > After you're done with all this, copy the configuration files from cloned directory to particular path. 
 
 # Thank You 
-- @Manas140 - Conscious
-- @snthcy for firefox
+- [Manas140](https://github.com/Manas140) - Conscious
+- @snthcy for firefox. 
+- [Stardust-kyun](https://github.com/Stardust-kyun).
