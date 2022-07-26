@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
+  <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/cat.gif">
 </p>
 
 <p align="center">
