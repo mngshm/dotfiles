@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+read image 
+
+echo "creating image"; 
+convert $image \( +clone -background black -shadow 100x40+0+16 \) \
++swap -background none -layers merge +repage output.png

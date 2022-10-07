@@ -20,7 +20,7 @@
 
 </br>
 
-<img align="right" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/rice.png" width="380px">
+<img align="right" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/theyboth.png" width="380px">
 
 Heyyo, Thanks for dropping by....this is a place where I showcase my dotfiles on the Internet. You'll find my shitty/beautiful/cool configurations here :D. This is my personal configuration of BSPWM Window Manager.
 

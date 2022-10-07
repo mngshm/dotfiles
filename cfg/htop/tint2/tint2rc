@@ -1,0 +1,192 @@
+# Background 1
+rounded = 0
+border_width = 0  
+border_sides = TBLR
+background_color = #0d1417 100
+background_color_hover = #141b1e 100
+background_color_pressed = #1b2224 100
+
+# Background 2
+rounded = 4
+border_width = 0
+border_sides = TBLR
+background_color = #141b1e 100
+
+# Background 3  
+rounded = 7   
+border_width = 0
+border_sides = TBLR
+background_color = #0f1619 100
+
+# Background 4 
+rounded = 5 
+border_width = 0 
+border_sides = TBLR 
+background_color = #192023 100
+
+# Background 5 
+rounded = 5 
+border_width = 0 
+border_sides = TBLR 
+background_color = #67b0e8 100
+
+# Panel
+panel_items = PPPP:T:BEP:CS
+panel_size = 100% 45
+panel_padding = 5 5 5 
+panel_margin = 0 0  
+panel_background_id = 1
+panel_position = top right vertical 
+panel_monitor = all
+panel_window_name = tint2
+panel_shrink = askbar_mode = single_desktop
+
+# Button 1 
+button = new 
+button_text =  
+button_lclick_command = firefox && wmctrl -s 1
+button_uwheel_command = wmctrl -s 1
+button_font = CaskaydiaCove Nerd Font 12
+button_font_color = #e06e6e 100 
+button_padding = 8 8 
+button_background_id = 1
+task_tooltip = 1
+task_thumbnail = 1
+task_thumbnail_size = 400
+
+# Button 2
+button = new 
+button_text =   
+button_lclick_command = thunar && wmctrl -s 2 
+button_uwheel_command = wmctrl -s 2
+button_font = CaskaydiaCove Nerd Font 12 
+button_font_color = #e5c76b 100 
+button_padding = 6 10
+button_background_id = 1
+
+# Button 2
+button = new 
+button_text = 
+button_lclick_command = zathura && wmctrl -s 3 
+button_uwheel_command = wmctrl -s 3
+button_font = CaskaydiaCove Nerd Font 12 
+button_font_color = #8ccf7e 100 
+button_padding = 8 10
+button_background_id = 1
+
+# Button 4
+button = new 
+button_text =  
+button_lclick_command = Kotatogram && wmctrl -s 4 
+button_uwheel_command = wmctrl -s 4
+button_font = CaskaydiaCove Nerd Font 12 
+button_font_color = #67b0e8 100 
+button_padding = 8 10 
+button_background_id = 1
+
+# Button 5
+button = new
+button_text = 
+button_lclick_command = xbacklight -inc 20
+button_rclick_command = xbacklight -dec 20
+button_mclick_command = 
+button_uwheel_command = xbacklight -inc 20
+button_dwheel_command = xbacklight -dec 20
+button_font = CaskaydiaCove Nerd Font Medium 11.12
+button_font_color = #dadada 100
+button_padding = 8 0 
+button_background_id = 4 
+
+# Taskbar
+taskbar_name = 1
+taskbar_name_padding = 5
+taskbar_name_background_id = 1
+taskbar_name_active_background_id = 2 
+taskbar_name_font_color = #dadada 100
+taskbar_name_active_font_color = #dadada 100
+taskbar_name_font = Iosevka Mayukai Codepro SmBd 0
+taskbar_mode = single_desktop
+taskbar_padding = 5 5 10 
+
+# Task
+task_centered = 1
+task_text = 1
+task_background_id = 2
+task_padding = 10 10
+task_active_background_id = 4
+task_font_color = #dadada 100
+task_font = JetBrainsMono Nerd Font 0 
+
+# Clock
+time1_format = %H %M
+time1_font = Iosevka Mayukai Codepro SmBd 12
+clock_font_color = #bdc3c2 100
+clock_background_id = 3 
+clock_padding = 0 10
+
+# Wifi
+execp = new
+execp_command = status wifi 
+execp_interval = 30
+execp_font = JetBrainsMono Nerd Font 11
+execp_padding = 5 8 
+execp_font_color = #8ad8ef 100
+execp_background_id = 1 
+
+# Battery  
+battery_hide = never 
+battery_low_status = 10% 
+battery_low_cmd = xmessage 'Charge Wen?'
+bat1_font = Iosevka Mayukai Codepro SmBd 10 
+bat2_font = Iosevka Mayukai Codepro SmBd 9 
+bat1_format = BAT %p 
+battery_background_id = 4 
+battery_padding = 5 5 
+battery_font_color = #dadada 100
+
+# volume
+execp = new
+execp_command = status vol
+execp_interval = 10 
+execp_font = Iosevka 10
+execp_padding = 5 6
+execp_font_color = #dadada 100
+execp_background_id = 0 
+
+# Separator 
+separator = new 
+separator_background_id = 1 
+separator_color = #181f21 100
+separator_padding = 50
+separator_style = empty 
+
+# Separator 
+separator = new 
+separator_background_id = 1 
+separator_color = #141b1e 100
+separator_padding = 50
+separator_style = empty
+
+# Separator  
+separator = new 
+separator_background_id = #bdc3c2 80 
+separator_size = 2 
+separator_style = line
+
+# System tray (notification area)
+systray_padding = 10 4 7
+systray_background_id = 2
+systray_sort = ascending
+systray_icon_size = 20
+systray_icon_asb = 100 0 0
+systray_monitor = primary
+systray_name_filter = string
+
+# Tooltip
+tooltip_show_timeout = 0.5
+tooltip_hide_timeout = 0.2
+tooltip_padding = 8 6
+tooltip_background_id = 1
+tooltip_font_color = #61c9f2 100
+tooltip_font = Rubik 9
+

@@ -1,0 +1,85 @@
+configuration {
+	modi:					"drun";
+	display-drun: 			"Apps";
+	drun-display-format:    "{name}";
+	font:				    "Iosevka Mayukai Codepro Bold 9";
+	show-icons:              true;
+	icon-theme: 			"Papirus";
+}
+
+@theme "/dev/null"
+
+* {
+	bg:				#0a1114;
+	fg:				#dadada;
+	accent:			#67b0e8;
+        active:      	#141b1e;
+      	rad:			-0px;
+	background-color: @bg;
+	text-color:	@fg;
+}
+
+window {
+	transparency: "real";
+	height: 100%;
+        width: 30%;
+	location: west;
+	x-offset: -0.8%;
+	y-offset: 0%;
+	border-radius: @rad;
+}
+
+inputbar {
+	children: [ textbox, entry ];
+	expand: false;
+	margin: 20px;
+	border-radius: 50px;
+	background-color: @active;
+}
+
+textbox {
+    str: "󰊠";
+    expand: false;
+    padding: 0 1% 1%;
+    horizontal-align: 0.5;
+    vertical-align: 0.7;
+    border-radius: 20px;
+    background-color: @accent;
+    text-color: @bg;
+    font: "Material Icons 17";
+}
+
+entry{
+	expand: true;
+	padding: 2%;
+  placeholder: "Search";
+  border-radius: 50px;
+  background-color: @active;
+}
+
+listview {
+	columns: 3;
+	lines: 2;
+	cycle: false;
+    margin: 50px;
+}
+
+element {
+	orientation: vertical;
+	padding: 1em;
+}
+
+element-text, element-icon {
+	padding: 0.2em;
+	horizontal-align: 0.5;
+	background-color: inherit;
+}
+
+element-icon { size: 50px; }
+listview, element, element selected, element-text, element-icon { cursor: pointer; }
+
+element selected {
+	background-color: @active;
+	text-color: @fg;
+	border-radius: @rad;
+}
