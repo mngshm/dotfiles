@@ -2,7 +2,6 @@
 override-redirect = true
 wm-resack = bspwm
 margin-bottom = 0
-
 margin-top = 0 
 ; change margins if u want
 
@@ -40,13 +39,9 @@ line-size = 2.5pt
 background = "#0d1417"
 foreground = "#dadada"
 
-border-top-size = 5
-border-top = #141b1e
-border-bottom = #141b1e
-border-bottom-size = 5d
 modules-left = time wlan
 modules-center = xworkspaces
-modules-right = round-left updates-arch round-right bluetooth battery
+modules-right = mem bluetooth battery
 
 font-0 = JetBrainsMono NL:style=Bold:pixelsize=9;3
 font-1 = JetBrainsMono NL:size=14;4
@@ -61,18 +56,21 @@ type = custom/script
 exec = "checkupdates | wc -l"
 tail = true
 format = <label>
-format-prefix = "󰣇"
+format-prefix = "󰣇 "
 format-prefix-foreground = ${colors.background}
 format-prefix-background = ${colors.color4}
 format-prefix-padding = 1
 format-background = #282f32
+border-top = #141b1e
+border-bottom = #141b1e
+border-size = 10
 format-padding = 1 
 
 [module/time]
 type = internal/date
 
 interval = 1.0
-time = "󰥔 %I:%M %p"
+time = "%{F#9bdead}󰥔 %{F#dadada} %I:%M %p"
 time-alt = " %a, %d %b %Y"
 
 format = <label>
@@ -109,7 +107,7 @@ icon-default = ●
 
 format = <label-state>
 format-padding = 1
-format-background = ${colors.background}
+format-background = ${colors.color8}
 
 label-monitor = %name%
 label-active = 󰄰
@@ -126,6 +124,16 @@ label-urgent-padding = 1
 label-occupied-padding = 1
 label-empty-padding = 1
 font-0=JetBrains Mono NL:style=Bold:size=9;5
+
+[module/mem]
+type = custom/script
+exec = free -m | sed -n 's/^Mem:\s\+[0-9]\+\s\+\([0-9]\+\)\s.\+/\1/p'
+format = <label>
+label = %{F#e57474}󰄫 %{F#dadada} %output%
+label-padding = 1
+;format-underline = #EBCB8B
+label-foreground = ${colors.color8}
+format-margin =1
 
 [module/battery]
 type = internal/battery
@@ -149,6 +157,7 @@ format-discharging-padding = 1
 
 format-full-prefix = 
 format-full-background = ${colors.background}
+format-full-foreground = ${colors.color3}
 label-charging = %percentage%%
 label-discharging = %percentage%%
 label-full = "Full"
@@ -163,6 +172,7 @@ ramp-capacity-6 = 󰂁
 ramp-capacity-7 = 󰂂
 ramp-capacity-8 = 󰁹 
 
+ramp-capacity-foreground = ${colors.color3}
 animation-charging-0 = 󰢜
 animation-charging-1 = 󰂇
 animation-charging-2 = 󰂈
@@ -170,7 +180,7 @@ animation-charging-3 = 󰢝
 animation-charging-4 = 󰂉
 animation-charging-5 = 󰢞
 animation-charging-8 = 󰂋
-
+animation-charging-foreground = ${colors.color3}
 animation-charging-framerate = 750
 
 [module/wlan]
@@ -179,14 +189,13 @@ interface = wlp3s0
 interval = 3.0
 format-connected = <ramp-signal>
 label-connected = %essid%
-format-foreground = #a3be8c
-label-connected-foreground = ${colors.color2}
+label-connected-foreground = ${colors.color4}
 format-disconnected = "󰤭 "
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 label-disconnected-foreground = ${colors.color8}
 ramp-signal-0 ="󰤨"
-ramp-signal-foreground = ${colors.color2}
+ramp-signal-foreground = ${colors.color4}
 
 [module/bluetooth]
 type = custom/script
